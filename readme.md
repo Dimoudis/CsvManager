@@ -1,5 +1,5 @@
-This app is part of my master’s degree project at the university 
-It focuses on managing data from csv files
+This app is part of my master’s degree project at the university
+It focuses on managing data from csv files 
 
 ◉ Current features
 
