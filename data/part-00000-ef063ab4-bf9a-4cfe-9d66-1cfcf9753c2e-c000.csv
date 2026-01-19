@@ -1,0 +1,1900 @@
+brand,model,avg_price,total_count,best_value_index
+Tesla,Model X Long Range,79750.0,4,6.3E8
+Mitsubishi,Lancer Evolution Base,28000.0,1,1.721748E9
+Ford,F-250 XLT SuperCab Super Duty,12240.0,1,1.8293904E9
+Volkswagen,Touareg V6 Executive,28890.0,1,1.461834E9
+Ford,Bronco Badlands Advanced,67996.5,2,2.771748E8
+Honda,Crosstour EX-L,12980.0,1,1.17783116E9
+Ford,F-350 Lariat Crew Cab Super Duty DRW,13000.0,1,2.296983E9
+BMW,640 Gran Coupe i xDrive,22500.0,1,2.205E9
+BMW,840 i xDrive,90000.0,1,1.35E8
+Volkswagen,Touareg TDI Lux,35000.0,1,5.30845E8
+Acura,ILX 2.0L w/Premium Package,12750.0,2,1.0875E9
+Tesla,Model 3 Standard Range Plus,29500.0,4,6.696E8
+BMW,M3 CS,101123.75,4,1.798E7
+Lincoln,Navigator Reserve,52332.666666666664,6,1.09998625E9
+Toyota,4Runner Trail,25625.0,2,3.268395E9
+Hyundai,Elantra SE,11700.0,2,5.198823E8
+BMW,X3 xDrive35i,12975.0,1,9.796125E8
+BMW,i3 Base,14999.0,1,3.89974E8
+Ferrari,FF Base,149900.0,1,2.9960513E9
+Mitsubishi,Eclipse Spyder GS,4495.0,1,4.06348E8
+Chevrolet,Tahoe LTZ,21913.571428571428,7,1.85E7
+Dodge,Challenger SRT Hellcat,72977.8,5,1.16982E8
+Porsche,Panamera GTS,59395.0,2,2.077305E9
+Mazda,Mazda6 Grand Touring Reserve,24995.0,1,1.049715015E9
+Jeep,Wrangler Unlimited Rubicon,43400.0,5,1.14625E8
+INFINITI,G37 Sport,15000.0,1,9.5244E8
+Chevrolet,Tahoe RST,67190.0,1,2.65514723E9
+Ford,Explorer Limited,29806.0,4,8.05E8
+Toyota,RAV4 Prime XSE,49000.0,1,3.479E8
+Volkswagen,Jetta 1.4T S,17000.0,1,1.003E9
+Porsche,911 GT3 RS,229900.0,1,3.5655191E9
+Rolls-Royce,Phantom Drophead Coupe Drophead,488880.0,1,1.44610704E9
+Kia,Sorento LX V6,20708.0,1,1.785112432E9
+Chevrolet,Suburban 1500 LS,12998.0,1,2.2324065E9
+Mercedes-Benz,SL-Class SL 63 AMG,41000.0,1,1.9434E9
+Lamborghini,Gallardo LP550-2,150000.0,1,3.3E9
+Lexus,NX 350h Premium,50999.0,1,1.52997E7
+Chevrolet,Silverado 1500 LS,8900.0,1,9.79E8
+Lincoln,Navigator L,10900.0,1,1.0355E9
+Jaguar,F-PACE S,50531.333333333336,3,2.63558752E8
+Mercedes-Benz,S-Class S 65 AMG,55000.0,1,5.24854E9
+RAM,1500 Classic Tradesman,28995.0,1,3.6145167E8
+Ford,Flex SEL,7999.0,1,1.191851E9
+Nissan,Rogue SV,30999.0,1,3.3912906E7
+Audi,TT RS 2.5T,76000.0,1,1.5713E9
+Mercedes-Benz,AMG E 63 S 4MATIC,87666.66666666667,3,1.24656E9
+Audi,A7 3.0T Prestige,27499.5,2,1.828298934E9
+Ford,Shelby GT350 Base,71589.0,3,2.548E8
+Lexus,IS 300 Base,28986.25,4,4.88E8
+Honda,Element EX,10750.0,2,1.281E9
+GMC,HUMMER EV Edition 1,146000.0,1,1.3724E8
+Pontiac,G8 GT,17500.0,1,1.4232225E9
+Ford,F-250 King Ranch,63211.25,4,2.55135E9
+Buick,Encore GX Essence,26877.0,2,5.77464675E8
+Mercury,Marauder Base,19250.0,2,1.3018E9
+Ford,Bronco,85950.0,2,2.046124E8
+Subaru,Outback 2.5i Limited,12914.666666666666,3,1.15060325E9
+Dodge,Ram 1500 SRT-10,22500.0,1,1.6425E9
+BMW,325 xi,4000.0,1,5.513E8
+Chrysler,300 Base,11250.0,1,9.5625E8
+Chevrolet,Corvette Stingray Z51,63900.0,1,4.494087E8
+Ford,Excursion Limited 4WD,17999.0,1,4.409755E9
+Lamborghini,Urus Pearl Capsule,259991.0,1,9.80426061E8
+Audi,A7 3.0T Premium,41500.0,1,1.90485E9
+Honda,Odyssey LX,8900.0,1,1.6465E9
+Tesla,Model S 85,28450.0,1,2.75396E9
+Subaru,Ascent Touring 7-Passenger,32297.75,4,1.161E9
+BMW,M5 Base,53953.769230769234,13,8.96784E7
+Lincoln,Navigator L Reserve,50151.333333333336,3,2.72480526E9
+Ford,Bronco Wildtrak Advanced,66665.0,3,1.33E8
+Chrysler,Pacifica Hybrid Touring L,35850.0,1,2.2045599E9
+Ford,Thunderbird Premium,14900.0,1,1.2218E9
+Tesla,Model X P90D,39500.0,1,3.5945E9
+Chevrolet,Silverado 1500 ZR2,68790.0,2,5.1432045E8
+BMW,428 i xDrive SULEV,26999.0,1,2.078923E9
+GMC,Acadia SLE-2,14997.5,2,1.309831025E9
+Hyundai,Genesis Coupe 3.8 Grand Touring,10250.0,2,6.61816E8
+BMW,328 i,14589.8,5,1.1689842E9
+Honda,Pilot Elite,38998.0,1,1.663381694E9
+Volkswagen,Arteon 2.0T SEL R-Line,30000.0,1,4.65E8
+Jeep,Cherokee X,33498.0,1,3.21614298E8
+Chrysler,Town & Country Touring-L,7724.5,2,9.726615E8
+BMW,X5 xDrive 35i Sport Activity,12900.0,1,1.58154E9
+INFINITI,Q50 Hybrid Sport,15500.0,1,1.37795E9
+Acura,MDX 3.5L Technology Package,17500.0,1,1.953875E9
+BMW,X5 xDrive50i,21658.8,5,1.0382E9
+RAM,2500 Big Horn,38584.625,8,1.160552232E9
+Dodge,Durango R/T,33166.333333333336,3,7.48785024E8
+Jeep,Gladiator Sport,40894.0,2,2.38840291E8
+Land,Rover Defender,104900.0,1,1.2807241E9
+Mazda,RX-8 R3,14000.0,1,7.98E8
+Porsche,Cayenne AWD,57950.0,2,1.93648E9
+RAM,2500 Laramie,55649.8,5,1.259749474E9
+Land,Rover Range Rover Velar P250 S R-Dynamic,44500.0,2,1.3275E9
+Cadillac,CTS Luxury,15151.333333333334,3,1.0922338E9
+Buick,Enclave Premium,21537.75,4,1.6307109E9
+GMC,Acadia SLE-1,12433.0,1,1.433301106E9
+Mazda,MX-5 Miata Sport,9124.5,2,5.2735E8
+Lamborghini,Huracan LP610-4,185500.0,1,6.335196E9
+BMW,M850 i xDrive,75798.0,1,7.54114302E8
+Ford,GT,429998.0,1,8.15706206E8
+Land,Rover Range Rover Evoque SE,27674.0,2,1.403752888E9
+GMC,Terrain SLT,19308.333333333332,3,2.12238E8
+Toyota,Sequoia SR5,25904.6,5,1.17538047E8
+BMW,M440 i xDrive,49999.0,1,1.2149757E9
+Audi,RS 4 4.2 quattro L,30000.0,1,4.395E9
+Ford,F-150 Lightning XLT,89000.0,1,1.8512E7
+Audi,TT RS Base,28900.0,1,1.58661E9
+Volvo,S60 B5 Inscription,36500.0,1,5.2122E8
+Honda,Clarity Plug-In Hybrid Base,17500.0,1,1.2425E9
+BMW,Z4 2.5i,9000.0,1,8.505E8
+Cadillac,ATS 2.5L Luxury,13600.0,1,3.06E9
+BMW,X3 xDrive28i,17000.0,1,1.580728E9
+Mercedes-Benz,E-Class E 550,29811.25,4,1.026715E9
+Lexus,GX 470 Base,13538.57142857143,7,1.5333E9
+Bentley,Continental GT Base,46478.8,5,1.134E9
+Jeep,Wrangler Unlimited Freedom Edition,35000.0,1,1.9075E9
+Subaru,WRX Premium,28500.0,2,2.55354E8
+Ford,Focus SEL,13895.0,1,1.11346193E9
+Dodge,Dakota Sport,5949.5,2,8.25E8
+Ford,F-150 FX4,26900.0,1,2.29995E9
+Chrysler,Town & Country LX,7858.0,1,5.77563E8
+Porsche,Cayenne Turbo,47474.75,4,1.11E9
+Hyundai,Sonata Sport 2.0T,13995.0,1,1.1601855E9
+Mitsubishi,Eclipse GT,4200.0,1,6.132E8
+Mazda,RX-8 Sport,6800.0,1,1.0574E9
+Porsche,Cayman GTS,72000.0,1,8.28E8
+Volvo,V60 Cross Country T5,36000.0,1,3.78E8
+GMC,Sierra 2500 AT4,71401.0,3,1.734324E9
+Maserati,Quattroporte S GranLusso,39100.0,1,2.1505E9
+Toyota,Tacoma SR5,30702.5,2,8.76776265E8
+Chevrolet,Malibu Limited LT,10500.0,1,1.092E9
+Honda,Accord Crosstour EX-L,9000.0,1,1.305E9
+Mercedes-Benz,AMG C 63 S,62025.0,4,1.02375E9
+INFINITI,G35 Sport,16900.0,1,6.2699E8
+BMW,X6 sDrive35i,35000.0,1,2.47037E9
+Maserati,Ghibli S Q4 GranSport,43772.5,2,1.354082045E9
+Nissan,Leaf SL,5450.0,2,1.80431E8
+Jaguar,XJ8 Base,9500.0,1,1.273E9
+Porsche,Taycan Turbo,105966.0,3,2.40811848E8
+RAM,ProMaster 3500 Tradesman,13000.0,1,1.86407E9
+Chrysler,300C Base,14375.0,2,1.203125E9
+Nissan,Pathfinder S,12955.0,3,9.0193125E8
+Mercedes-Benz,SLS AMG Base,226000.0,1,4.054666E9
+Acura,TSX Base,7899.0,1,1.1974884E9
+Acura,TLX V6 Tech,21900.0,1,8.322E8
+Ford,Mustang Boss 302,49990.0,1,6.473705E7
+Subaru,Forester Base,24000.0,1,7.85856E8
+Maserati,Grecale Modena,72322.5,2,1.65E8
+Nissan,Rogue S,28906.0,1,6.13154072E8
+Porsche,Boxster RS 60 Spyder,41500.0,1,2.407E9
+Scion,tC Anniversary Edition,11246.5,2,1.099789002E9
+Mazda,MX-5 Miata Shinsen,11500.0,1,5.390395E8
+Acura,RDX Base,23500.0,1,1.6079875E9
+Jeep,Liberty Sport,5850.0,2,5.356E8
+Mercedes-Benz,E-Class E 300,33998.0,1,1.10765484E9
+Toyota,Mirai Base,9500.0,1,3.8E8
+GMC,Sierra 1500 SLE1 Extended Cab,6100.0,1,1.1407E9
+Hyundai,Genesis 4.6,10250.0,2,1.2633705E9
+Honda,Pilot Black Edition,44998.0,1,1.015334872E9
+Cadillac,XT6 Premium Luxury AWD,69000.0,1,1.5318E7
+Mercedes-Benz,E-Class D 2.5 Turbo,22500.0,1,1.5753375E9
+Audi,A8 4.0T,22500.0,1,2.165355E9
+Land,Rover Discovery S,6000.0,1,7.31316E8
+Porsche,911 Carrera 4 GTS,194965.0,1,2.9595687E8
+Toyota,Supra 3.0 Premium,53534.0,2,6.6875E8
+Toyota,Camry Solara SLE V6,4500.0,2,6.125E8
+Jeep,Compass Trailhawk,22000.0,1,6.82E8
+Mercedes-Benz,CLS-Class CLS500,16750.0,1,4.849125E8
+Honda,Accord EX-L 2.0T,27500.0,1,1.1018975E9
+Alfa,Romeo Giulia Base,23466.666666666668,3,7.56E8
+Dodge,Durango SRT,53350.0,2,2.232E9
+Hyundai,Palisade Calligraphy,55000.0,1,8.25E7
+Porsche,Boxster Black Edition,49999.0,1,1.244025119E9
+Hyundai,Sonata SE,14200.0,2,5.487875E8
+Ford,Fusion Hybrid Base,6375.0,2,1.007208E9
+Mercedes-Benz,M-Class ML 350,11900.0,1,1.18048E9
+Alfa,Romeo Giulia Quadrifoglio,64133.333333333336,3,1.492194E8
+Jeep,Grand Cherokee L Summit,56740.0,1,8.2993598E8
+Volvo,S60 T6 Momentum,27800.0,1,1.28575E9
+BMW,X5 3.0si,8500.0,1,8.4745E8
+Nissan,Titan S,32324.0,1,6.5359128E8
+Land,Rover Range Rover Sport Supercharged HSE,27833.333333333332,3,1.8674625E9
+Mazda,MX-5 Miata Club,28000.0,1,1.42604E8
+Ford,Explorer ST,48701.666666666664,3,5.25E8
+Ford,F-250 XL Crew Cab Super Duty,9200.0,1,2.898E9
+Audi,Q5 2.0T Premium Plus,22721.125,8,7.595E8
+INFINITI,Q70h Base,28998.0,1,1.5296445E9
+BMW,M8 Competition,113665.33333333333,3,4.515E8
+Toyota,bZ4X Limited,41999.0,1,2.75009452E8
+Toyota,4Runner TRD Off Road,33333.0,1,2.6499735E9
+Toyota,4Runner SR5 Premium,41745.0,2,6.51E7
+Land,Rover Range Rover Evoque HSE Dynamic,24000.0,1,1.896E9
+Maserati,Levante GTS,84645.0,1,1.651677885E9
+Dodge,Magnum Base,4000.0,1,5.3302E8
+BMW,X5 M50i,74448.5,2,1.069915295E9
+MINI,Countryman Cooper,21612.0,1,1.6149567E9
+Mercedes-Benz,CLS-Class CLS 550,50832.666666666664,3,9.515E8
+Toyota,Highlander Hybrid Limited Platinum,40333.0,3,5.94604E8
+BMW,ALPINA B7 Base,32499.5,2,1.32296325E9
+Porsche,911 Carrera S Cabriolet,69995.0,1,2.01893578E9
+Mercedes-Benz,AMG GLC 43 AMG GLC 43,60998.0,1,6.39442034E8
+Chevrolet,Corvette Stingray w/3LT,92178.57142857143,7,1.012E8
+Dodge,Durango SRT 392,64841.5,2,1.105E9
+RAM,3500 SLT,32999.0,1,5.189818728E9
+Chevrolet,Malibu LT,17500.0,1,9.2925E8
+Mercedes-Benz,AMG C 43 Base 4MATIC,39818.6,5,1.3824E9
+BMW,Z4 sDrive28i,27299.0,5,5.481705E8
+BMW,740 Li,18500.0,1,1.577162E9
+Honda,Accord EX-L,15579.0,3,1.045625E9
+Mercedes-Benz,E-Class E 350,24172.76923076923,13,7.31555E8
+Porsche,Cayenne E-Hybrid S Platinum Edition,29500.0,1,2.047418E9
+Ford,Fusion Energi Titanium,10000.0,1,8.4352E8
+INFINITI,QX80 Luxe,39547.5,2,2.17005E9
+Land,Rover Range Rover 5.0L Supercharged,33331.333333333336,3,2.36768E9
+Cadillac,XTS Premium,21995.0,1,1.2506357E9
+Tesla,Model S P100D,51349.75,4,6.03889935E8
+Ferrari,F430 Berlinetta,99999.0,1,3.868561314E9
+Land,Rover Discovery HSE LUXURY,31250.0,2,1.3688E9
+RAM,2500 Powerwagon,26500.0,1,2.23183E9
+Hummer,H2 Base,23600.0,9,1.8745125E9
+Dodge,Challenger R/T Scat Pack,44349.5,4,6.6836E7
+Maserati,Levante S,33950.0,1,1.84766085E9
+RAM,1500 TRX,85950.0,2,1.36647E9
+Land,Rover Range Rover P400 SE SWB,136500.0,2,4.699755E8
+Acura,TLX V6 Advance,25249.5,2,7.99123221E8
+Subaru,WRX Limited,19983.333333333332,3,1.458744E9
+Acura,TLX Type S w/Performance Tire,52500.0,2,9.5294E7
+Tesla,Model 3 Mid Range,29999.0,1,9.59968E8
+McLaren,570S Base,139000.0,1,4.1978E9
+Pontiac,Solstice Base,12900.0,1,8.03799E8
+Jeep,Commander Sport,4800.0,1,7.7712E8
+Audi,RS 7 4.0T Prestige,52498.75,4,2.1105E9
+Land,Rover Range Rover Evoque SE Premium,28999.5,2,1.5105E9
+Ford,Ranger XLT,21000.0,2,9.23216E8
+Buick,Enclave Avenir,34607.0,2,1.323384002E9
+Ford,F-250 XLT Super Duty,7500.0,1,4.823175E8
+Mercedes-Benz,GLS 550 Base 4MATIC,42398.5,2,3.333956756E9
+Kia,Sorento LX,19581.5,2,7.16345964E8
+Cadillac,Escalade EXT Base,19949.5,2,2.276901E9
+Mercedes-Benz,AMG GT 63 S 4-Door,121800.0,3,1.2825E9
+Cadillac,Escalade Sport,116949.5,2,3.71997E8
+GMC,Sierra 3500 SLE,5000.0,1,1.5E9
+Subaru,Impreza WRX Premium,30000.0,1,1.65E9
+Mitsubishi,Mirage ES,8750.0,1,3.123575E8
+Chevrolet,Avalanche 1500 LS,11066.333333333334,3,7.77070854E8
+Lexus,LS 500 F Sport,59000.0,1,8.88245E8
+Cadillac,CT6-V 4.2L Blackwing Twin Turbo,76700.0,1,6.192758E8
+Jaguar,XF Premium,10900.0,2,4.356616E8
+Tesla,Model S 90D,35900.0,1,2.6609798E9
+Lexus,RC 350 F Sport,41927.0,1,9.82601172E8
+Saturn,Sky Base,18500.0,1,2.7787E8
+Mercedes-Benz,GL-Class GL 550 4MATIC,29900.0,2,1.6274006E9
+Mercedes-Benz,E-Class AMG E 53,72598.0,1,1.672948312E9
+Mazda,Mazda3 s Sport,6300.0,1,4.8951E8
+Nissan,Pathfinder SV,18998.0,1,2.317926982E9
+Saturn,Vue Hybrid Base,4400.0,1,5.06E8
+Aston,Martin Vantage GT Base,80000.0,1,1.688E9
+Honda,Fit Sport,5200.0,1,8.117772E8
+Volkswagen,Tiguan 2.0T SEL Premium R-Line,25500.0,1,1.887E9
+Lexus,LS 460 L,17166.333333333332,3,1.15E9
+Mercedes-Benz,SL-Class SL500 Roadster,18450.6,5,5.7618E8
+Chevrolet,Trailblazer LT,23995.0,1,1.21529876E9
+Porsche,911 R,349500.0,2,3.51591E8
+Chrysler,300 S,15749.666666666666,3,7.2875E8
+Acura,TSX 2.4,9000.0,1,1.044E9
+Jeep,Wrangler Unlimited Sport S,38500.0,1,6.545E8
+Jaguar,F-TYPE R,59358.333333333336,6,6.414516E8
+Lexus,NX 350 F SPORT Handling,51998.0,1,4.263836E7
+Rolls-Royce,Ghost Base,157775.0,4,2.67665E8
+Genesis,G70 3.3T,41000.0,1,4.92E8
+BMW,X6 xDrive50i,44499.5,2,2.114955E9
+Acura,RDX Advance Package,39650.0,1,1.14985E9
+Land,Rover Range Rover Supercharged LWB,66150.0,2,3.6601875E9
+Lincoln,Navigator Premiere,50000.0,1,1.175E9
+Chevrolet,Silverado 1500 Limited High Country,60000.0,1,1.53E8
+Toyota,Tundra Hybrid Capstone,82500.0,1,1.65E7
+Ford,F-250 XLT Crew Cab Super Duty,15450.0,2,2.3625E9
+Dodge,Sprinter 2500 High Roof,24000.0,1,1.32E9
+GMC,Canyon Elevation Standard,32900.0,1,5.4285E8
+Ford,F-150 Tremor,70000.0,1,3.85E8
+Audi,S7 2.9T Prestige,77500.0,1,9.3E8
+Dodge,Ram 1500 Laramie,5700.0,1,8.048913E8
+Volvo,S40 T5,3550.0,1,9.14835E8
+Ford,Mustang Mach-E California Route 1,38000.0,1,9.12E8
+GMC,Sierra 1500 Denali Ultimate,84000.0,1,2.1E8
+Buick,Enclave Essence,29444.0,1,1.631285932E9
+Mercedes-Benz,AMG GT Base,84500.0,1,2.381379E9
+GMC,Acadia SLT-2,14000.0,1,1.61E9
+Ford,Ranger XLT SuperCab,6450.0,1,1.239045E9
+GMC,Sierra 1500 SLE,23744.5,2,2.30073912E9
+Chevrolet,Equinox 2LT,7500.0,1,7.248975E8
+Scion,xB Base,8000.0,1,7.63408E8
+Volkswagen,Beetle 2.0T Final Edition SE,32750.0,1,1.048E9
+Audi,A3 2.0T,6500.0,1,5.4275E8
+BMW,i8 Base,78189.8,5,7.3601154E7
+Cadillac,DTS Base,10499.0,1,5.2096038E8
+Jeep,Compass Limited,26444.0,2,5.79316656E8
+Mercedes-Benz,SLK-Class SLK230 Kompressor,10450.0,2,3.959368E8
+Chrysler,Pacifica Launch Edition,36800.0,1,8.1696E8
+Jeep,Cherokee Sport,6500.0,1,1.108588E9
+Acura,ILX 2.4L,14798.0,1,2.018402806E9
+Alfa,Romeo Stelvio Ti Sport,31622.5,4,6.65313925E8
+Land,Rover Defender X-Dynamic SE,80998.0,2,3.01588644E8
+BMW,X5 M Base,58460.0,5,4.604532E8
+Mercedes-Benz,C-Class C 300 4MATIC Sport,16435.0,4,1.37875161E9
+Lotus,Evora Base,55000.0,1,5.005E8
+Nissan,Pickup Truck XE,5899.0,1,5.25860456E8
+Porsche,Cayman GT4,115000.0,1,1.74432E9
+Buick,Verano Convenience,11995.0,1,8.19558375E8
+Scion,tC Release Series 6.0,6500.0,1,7.80065E8
+Cadillac,Escalade Premium Luxury Platinum,86745.0,2,1.435225E9
+Jaguar,F-TYPE V6 S,32998.0,1,2.052277612E9
+Hyundai,Kona EV SEL,25099.5,2,3.007906E8
+Hyundai,Sonata Hybrid Base,8500.0,1,1.309E9
+Volkswagen,Golf R Base,48000.0,1,5.1216E7
+FIAT,500 Lounge,9000.0,1,7.69122E8
+Toyota,Camry Solara SE,13900.0,1,8.041428E8
+Jeep,Wrangler Unlimited,15900.0,1,2.3214E9
+Volvo,S60 R,8000.0,1,1.336E9
+Lotus,Evora 2+2,51000.0,1,1.02E9
+Lotus,Evora 400 Base,69250.0,1,1.3607625E9
+Audi,S6 4.0T,29972.5,2,2.2163E9
+BMW,X7 M50i,94998.0,1,6.76480758E8
+Porsche,718 Boxster S,58750.0,2,2.75E9
+Mercedes-Benz,E-Class E 400 4MATIC,43749.0,2,1.07477591E9
+Mercedes-Benz,G-Class G 63 AMG,72999.0,1,3.642577101E9
+Jeep,Wrangler Sport,21903.70588235294,17,2.9114649E8
+Land,Rover Discovery SE,22746.5,2,1.898406935E9
+Audi,S4 3.0 Prestige,24500.0,2,1.200258E9
+Land,Rover Range Rover Sport HSE Dynamic,59750.0,2,1.558E9
+RAM,1500 Rebel,42255.4,5,1.629664E9
+Audi,TT 1.8T,12000.0,1,9.54E8
+Ford,F-250 LARIAT,76598.0,1,3.23588251E9
+Land,Rover Defender X,95998.0,1,5.21557134E8
+Land,Rover Range Rover P525 Westminster,89900.0,2,1.6132555E9
+Cadillac,XT5 Luxury,28318.666666666668,3,1.446590656E9
+Buick,Enclave 1XL,4000.0,1,6.8E8
+Volkswagen,ID.4 Pro S,42499.0,2,6.8636568E7
+Mercedes-Benz,E-Class E 450 4MATIC,62000.0,1,1.116E9
+Nissan,Armada SV,16995.0,1,3.180461295E9
+Volvo,S60 Recharge Plug-In Hybrid T8 Inscription,44900.0,1,1.0846942E9
+Mercedes-Benz,Metris Base,123599.66666666667,9,3.06475E8
+Porsche,911 Carrera S,96146.14285714286,14,3.4902815E8
+Subaru,Forester 2.5 X,2300.0,1,4.846169E8
+Chevrolet,Corvette Base,26390.227272727272,22,1.53824E8
+Honda,Ridgeline RTL-E,37685.333333333336,3,3.76028358E8
+Acura,Integra LS,5500.0,1,6.6E8
+Toyota,Tundra Limited,42441.0,3,2.17745E8
+Ford,C-Max Energi SE,11499.0,1,7.75975518E8
+Mercedes-Benz,S-Class S 63 AMG,43316.333333333336,6,1.215441612E9
+Ford,F-250 XL,35945.75,4,1.00161E9
+Audi,Q4 e-tron Sportback Premium,54900.0,1,6.34644E7
+Mitsubishi,Montero Limited,8950.0,1,1.29775E9
+Volkswagen,New Beetle GLS,12000.0,1,7.59E8
+Hyundai,Elantra HEV Limited,23999.0,1,6.863714E8
+Lexus,CT 200h Base,21995.0,1,8.7430125E8
+Audi,Q5 3.0 TDI Premium Plus,22500.0,1,1.25019E9
+Audi,TT 1.8L,6900.0,1,8.607543E8
+Chevrolet,Suburban Z71,67039.0,2,1.339968E9
+Chevrolet,Camaro Z28,19333.0,3,7.45815E8
+Jeep,Wrangler Unlimited Rubicon 392,72980.0,1,2.77324E9
+Mercedes-Benz,CLS 450 Base,44500.0,1,2.9815E9
+Ford,Fusion Hybrid Titanium,12599.0,1,1.41335582E9
+Land,Rover Range Rover Sport 3.0 Supercharged HST,73897.0,1,2.040148376E9
+Cadillac,CT5-V V-Series,55655.0,1,2.47720405E8
+Acura,RSX Type S,11745.0,2,6.8E8
+Subaru,BRZ Premium,27495.0,2,1.73942E8
+Ford,Mustang Mach-E GT,55899.5,4,3.79977939E8
+Kia,Sorento EX V6,23754.0,1,1.56954555E9
+Hyundai,Accent GLS,7000.0,2,7.6375E8
+Chevrolet,Blazer Premier,34562.0,1,1.922373002E9
+Nissan,NV Passenger NV3500 HD SL V8,52450.0,2,9.171567E8
+GMC,Acadia SLE,28974.75,4,8.034E8
+Acura,MDX Technology,26475.0,2,7.6216525E8
+Pontiac,Firebird Base,6750.0,2,3.95E8
+Audi,A3 2.0 TDI Premium Plus,18999.0,1,1.576917E9
+Jeep,Grand Cherokee L Laredo,42222.666666666664,3,4.56817872E8
+Mazda,CX-7 Sport,5499.0,1,6.21387E8
+Land,Rover Range Rover Sport P400 SE Dynamic,124000.0,1,5.58E7
+Mitsubishi,Lancer Sportback ES,5800.0,1,6.554E8
+Genesis,G70 3.3T Advanced,29999.0,1,1.439952E9
+Land,Rover Discovery LSE,9995.0,1,1.493622815E9
+Chevrolet,Silverado 1500 Z71 Extended Cab,10500.0,1,1.9425E9
+BMW,ALPINA B7 ALPINA B7 xDrive,84998.0,3,1.509669806E9
+Ford,Edge SEL,27743.333333333332,3,5.69556988E8
+Mercedes-Benz,AMG GLE 43 Coupe 4MATIC,46497.0,2,2.106755E9
+Land,Rover Range Rover P530 SE SWB,175000.0,1,4.9E8
+Ford,F-350 Lariat Super Duty Crew Cab,28900.0,1,3.76278E9
+Land,Rover LR2 Base,11995.0,1,1.349017675E9
+Acura,TLX PMC Edition,43500.0,1,3.0015E8
+Acura,TLX,38598.0,1,1.30808622E8
+Toyota,Avalon Limited,18929.666666666668,3,6.3638484E8
+Mazda,CX-30 Preferred,27518.0,1,2.73171186E8
+Hyundai,IONIQ Plug-In Hybrid SEL,24999.0,1,3.26086956E8
+Jeep,Wrangler Unlimited X,15825.0,2,2.13357375E9
+Land,Rover Range Rover Sport HST MHEV,61466.666666666664,3,1.4231E9
+Lexus,RX 350 F Sport,39212.25,4,3.2870585E8
+Hyundai,Genesis Coupe 3.8 Track,10166.666666666666,3,7.65E8
+BMW,535 i,5699.0,1,7.69365E8
+Ford,Excursion XLT 4WD,9950.0,1,2.03975E9
+Ford,Explorer Platinum,35746.333333333336,3,2.22872499E9
+Land,Rover Range Rover P530 SE,164725.0,1,3.07871025E8
+Bentley,Continental GTC Base,75150.0,3,6.4874E8
+Volkswagen,Arteon 2.0T SEL Premium R-Line,34645.0,1,9.3091115E8
+Jeep,Liberty Limited,5900.0,1,6.313E8
+Mercedes-Benz,G-Class G 550,142998.0,1,2.948904756E9
+Kia,Telluride S,38437.666666666664,3,2.729775E8
+Honda,Ridgeline Black Edition,26000.0,1,2.3816E9
+BMW,X4 M Competition,60000.0,1,1.10172E9
+Ford,F-350 XL,40000.0,1,6.25812E9
+Toyota,4Runner SR5,29779.8,5,1.049920623E9
+RAM,ProMaster 2500 Window Van High Roof,65000.0,1,3.23375E9
+Chevrolet,Bolt EUV Premier,33661.666666666664,3,2.4385364E8
+Hyundai,Veloster Turbo R-Spec,11000.0,1,1.408E9
+Toyota,Tundra SR,38000.0,2,1.938E9
+Honda,Civic Type R Touring,35500.0,1,2.58795E9
+BMW,X4 xDrive30i,46000.0,1,1.6008E9
+Chevrolet,Equinox LT,7000.0,1,9.1E8
+Chevrolet,Cruze LT,5200.0,2,8.160735E8
+Subaru,WRX STI Base,33250.0,2,1.2285E9
+Mitsubishi,Outlander Sport ES,10500.0,1,1.0330425E9
+Jeep,Gladiator Rubicon,48500.0,4,4.74876E8
+Jeep,Grand Wagoneer Series III,83499.0,2,1.547915144E9
+Porsche,Macan S,45019.416666666664,12,1.103216598E9
+Maserati,Levante Modena,88950.0,1,4.8113055E8
+Acura,TL 3.7,15051.0,1,1.05357E9
+Cadillac,Escalade Platinum Edition,12900.0,1,2.0672121E9
+Mercedes-Benz,AMG GL AMG GL 63 4MATIC,36500.0,1,2.5185E9
+Bugatti,Veyron 16.4 Grand Sport,1950995.0,1,1.234979835E10
+Audi,RS Q8 4.0T,91500.0,1,3.829824E9
+Volkswagen,Tiguan 2.0T SE,27900.0,1,3.069E8
+Land,Rover Range Rover Evoque S,33999.0,2,1.453621E9
+Jeep,Wrangler Unlimited 4xe Sahara,45232.333333333336,3,5.249895E8
+Land,Rover Range Rover 5.0L Supercharged Autobiography LWB,72567.0,1,2.658274344E9
+Lamborghini,Murcielago Base,239500.0,2,2.59E9
+Chevrolet,Camaro LT1,39749.0,2,2.6465E8
+Mazda,CX-5 Grand Touring,27254.666666666668,3,7.18425971E8
+Kia,Forte LXS,16995.0,1,9.0841674E8
+Honda,Passport Elite,45498.0,1,1.35493044E8
+BMW,328 i xDrive,13000.0,5,6.6E8
+Jeep,Grand Cherokee Limited,24289.125,8,5.0126795E8
+BMW,435 i,21575.0,5,9.6474E8
+Bentley,Continental GT V8,225480.33333333334,3,4.84633845E8
+Bentley,Flying Spur V8,197750.0,1,5.5089195E9
+Dodge,Ram 2500 SLT Quad Cab,10700.0,1,1.2198E9
+Land,Rover Range Rover Westminster SWB,115999.0,1,2.5751778E8
+Cadillac,Escalade Sport Platinum,96486.75,4,1.536768928E9
+GMC,Yukon XL SLT,40549.0,6,1.9323E9
+Audi,A4 2.0T Premium,10299.5,6,7.537894E8
+Mercedes-Benz,C-Class C280 4MATIC,12000.0,1,5.95512E8
+INFINITI,QX60 Pure,29900.0,1,1.1661E9
+Maserati,Quattroporte Sport GT,7999.0,1,6.55918E8
+MINI,Hardtop Cooper,18750.0,2,2.6595E8
+Toyota,RAV4 TRD Off Road,35200.0,1,1.6368E9
+Lexus,ES 330 Base,11100.0,1,4.557549E8
+Mercedes-Benz,SLC 300 Base,32949.5,2,8.603761E8
+RAM,1500 Big Horn,38601.90909090909,11,5.75739472E8
+BMW,X6 xDrive40i,62288.166666666664,6,8.97E8
+Land,Rover Range Rover SV Autobiography Dynamic SWB,112000.0,1,1.876448E9
+MINI,Convertible Cooper,28000.0,1,4.35232E8
+Mitsubishi,Eclipse Spyder GT,8375.0,2,6.293E8
+GMC,Sierra 3500 Denali,58500.0,1,4.2758235E9
+Mercedes-Benz,SL-Class SL550 Roadster,21575.0,4,1.14885E9
+Audi,SQ8 4.0T Premium Plus,76400.0,1,3.3033832E9
+Maserati,GranTurismo Sport,38950.0,2,1.152E9
+Audi,R8 5.2,109500.0,2,2.5506E9
+Mercedes-Benz,AMG C AMG C 63 S,47999.0,1,1.944679485E9
+Mazda,Mazda3 FWD w/Premium Package,25099.0,1,5.44673399E8
+Nissan,Versa 1.8 S,4250.0,2,4.94559E8
+Chevrolet,Equinox Premier w/2LZ,25800.0,1,1.3192314E9
+BMW,530 i xDrive,35492.5,2,9.022855E8
+Lincoln,Continental Reserve,29000.0,1,1.648534E9
+BMW,ALPINA B7 xDrive,14000.0,1,1.89E9
+Dodge,Challenger SRT8 392,33500.0,1,1.12895E9
+Toyota,Tundra Grade,20800.0,1,1.92816E9
+Suzuki,SX4 Base,6900.0,1,6.898758E8
+Honda,CR-V EX,3945.0,2,6.238365E8
+BMW,X3 xDrive30i,37198.57142857143,7,1.03662216E8
+Ford,Mustang Shelby GT500,48349.75,4,3.01178654E8
+Buick,Encore Preferred,18795.0,1,9.3975E8
+Chevrolet,S-10 LS Crew Cab,7000.0,1,9.73E8
+Land,Rover Range Rover 5.0L V8 Supercharged,66950.0,2,1.1375E9
+Lexus,RC F Base,46497.5,2,1.28767122E9
+GMC,Yukon SLE,28691.0,3,2.317248114E9
+BMW,228 i,19996.0,1,1.079784E9
+Audi,Q8 55 Premium,52500.0,1,1.80075E9
+Chevrolet,Express 2500 Work Van,32600.0,3,1.6579E9
+Chevrolet,Impala 1LT,17858.0,2,1.253E9
+Lincoln,LS V8,11000.0,1,4.62E8
+Lexus,LC 500 Base,87911.5,8,1.45485E8
+Ford,Transit Connect XLT,11545.5,6,7.848E8
+Mercedes-Benz,SL-Class SL 550,35622.0,9,6.130705E8
+Porsche,718 Boxster GTS,99750.0,1,1.0374E9
+Kia,Optima LX,11700.0,2,6.922839E8
+Volvo,XC70 3.2,9200.0,2,5.3238E8
+Chevrolet,Trailblazer RS,30247.5,2,3.2E8
+Dodge,Charger R/T 392,37000.0,1,2.71395E9
+Pontiac,G6 GTP,5995.0,1,6.02767275E8
+smart,ForTwo Pure,5000.0,1,3.07975E8
+Toyota,4Runner Sport,8550.0,1,1.8848475E9
+Audi,A7 3.0T Premium Plus,37333.0,3,1.171730706E9
+Mercedes-Benz,E-Class E 400,30626.666666666668,3,8.787E8
+Toyota,Tacoma SR,35750.0,2,1.8323E8
+Land,Rover Defender V8,96500.0,1,2.895E8
+BMW,335 is,20497.5,2,1.64E9
+Volvo,XC60 3.2,10800.0,1,1.1016E9
+Volkswagen,Atlas 3.6L SE w/Technology,24999.0,1,1.20520179E9
+BMW,525 i,8900.0,1,8.13638E8
+Chevrolet,Trailblazer LS,22997.0,2,4.71410503E8
+Mazda,RX-8 Grand Touring,8500.0,1,6.903615E8
+Ford,Fusion SE,9825.0,6,6.85938E8
+Volkswagen,Golf R 4-Door w/DCC & Navigation,32000.0,1,1.152E9
+Audi,Q5 S line Premium Plus,46326.57142857143,7,2.21235504E8
+Land,Rover Range Rover Autobiography,196530.5,2,6.4799352E7
+Dodge,Durango GT,36263.0,6,5.5791858E8
+Toyota,Sequoia TRD Pro,76797.0,2,5.5197E7
+Nissan,Cube 1.8 S,6750.0,1,4.89375E8
+Kia,Sorento Plug-In Hybrid SX,40599.0,1,6.32654217E8
+Acura,TLX Type S PMC Edition,65000.0,1,8.84E8
+Kia,Sorento S,33591.0,1,6.58551555E8
+Land,Rover Range Rover Velar R-Dynamic SE,35998.0,1,2.732140206E9
+Chevrolet,Camaro 2LT,20687.5,4,7.68E8
+Audi,A8 L 3.0T,28000.0,1,1.54E9
+Lincoln,Nautilus Reserve,45762.5,4,7.6610262E8
+BMW,750 i,27310.0,5,6.909669E8
+Mazda,Mazda3 Grand Touring,19212.0,1,2.915421E8
+Subaru,Impreza Outback Sport Wagon,7495.0,1,7.36855935E8
+Buick,Cascada Base,14995.0,1,1.55669093E9
+Toyota,Prius Two,13310.0,1,1.06951174E9
+Audi,Q3 45 S line Premium Plus,34999.0,1,3.44215165E8
+Audi,A4 2.0T Premium Plus quattro,8999.0,1,1.130049425E9
+MINI,Convertible John Cooper Works,29000.0,1,7.0412E8
+Lexus,RC 350 Base,28704.5,4,1.5792E9
+GMC,Terrain SLE,23311.666666666668,3,7.5997532E8
+Ford,Expedition Max Limited,50855.5,4,1.607705082E9
+Lincoln,Town Car Base,14900.0,2,4.1124E8
+Kia,Sportage SX Turbo,18688.0,1,1.641591296E9
+Toyota,Corolla Hybrid LE,22945.0,1,1.020111755E9
+Rivian,R1T Launch Edition,82000.0,1,7.11842E8
+Toyota,86 Base,27350.0,1,4.02045E8
+Mercedes-Benz,AMG GLE 43 4MATIC Coupe,61350.0,1,1.76411925E9
+INFINITI,Q70 3.7X,23000.0,1,7.705E8
+Jaguar,XE 25t,22500.0,1,9.3267E8
+Jaguar,E-PACE 300 Sport,42999.0,1,1.0147764E9
+Honda,CR-V LX,3750.0,1,6.6097875E8
+Jaguar,XJ8 L,13240.0,2,5.625E8
+Porsche,911 Turbo S,217425.0,4,4.23346E7
+Jaguar,XE 35t Premium,25000.0,1,1.375E9
+Ford,Maverick XL,29999.0,1,3.749875E8
+Porsche,911 Carrera C4S,43000.0,1,2.795E9
+Audi,R8 5.2 V10,158900.0,2,1.1060413E9
+Kia,Niro Plug-In Hybrid EX Premium,31995.0,1,1.17108099E9
+Nissan,Z Proto Spec,65990.0,1,3.530465E7
+Cadillac,Escalade ESV Platinum,42299.8,5,3.521752E9
+INFINITI,FX50 Base,17475.0,2,1.906005E9
+Lexus,RX 350 Crafted Line F Sport,28000.0,1,3.08E9
+Dodge,Ram 2500 ST,17700.0,1,2.6823288E9
+Porsche,Panamera S,41500.0,1,2.0335E9
+Cadillac,XLR V,24700.0,1,1.60056E9
+Dodge,Charger Base,4500.0,1,6.550425E8
+Nissan,Sentra SR,13998.0,1,1.351380918E9
+Rolls-Royce,Cullinan,514981.6666666667,3,5.1749425E7
+Audi,A3 2.0T Tech Premium,25999.5,2,1.0691604E9
+Nissan,Pathfinder SL,18498.0,3,1.304955E9
+Chevrolet,Colorado Z85,7995.0,1,1.239225E9
+BMW,M3 Competition,75500.0,2,1.14152E9
+Chevrolet,Colorado LT,24899.0,1,3.463849284E9
+Land,Rover LR2 HSE,9975.0,1,1.0022082E9
+Mercedes-Benz,AMG C 63 Base,51866.333333333336,3,1.5789844E9
+Cadillac,ATS 2.0L Turbo,22999.0,1,7.35968E8
+Nissan,NV200 SV,26500.0,1,4.4255E8
+Mercedes-Benz,AMG GT AMG GT,75000.0,1,1.4493E9
+Bentley,Arnage R,41172.5,2,3.945202E8
+Toyota,Yaris Base,5000.0,1,6.90355E8
+Jaguar,XKR Base,21900.0,1,1.095E9
+Lincoln,MKS Base,9500.0,1,1.1818E9
+Kia,Stinger GT,29950.0,1,1.686185E9
+Ford,Expedition Limited,48314.375,8,6.0325E8
+Nissan,Juke SV,3200.0,1,4.399456E8
+Genesis,G80 3.3T Sport,32990.0,1,1.896925E9
+Ferrari,F12berlinetta Base,254900.0,1,3.764873E9
+Cadillac,Escalade ESV Base,11050.0,2,1.871025E9
+Toyota,RAV4 Base,10950.0,2,9.42E8
+Audi,Q5 3.0T Premium Plus,19000.0,1,1.144769E9
+Lexus,NX 300h Base,33200.0,1,5.4531E8
+BMW,528 i,15997.5,2,1.39359E9
+Mazda,Mazda3 FWD w/Preferred Package,19900.0,1,1.20992E9
+Chevrolet,Colorado ZR2,37663.666666666664,3,1.115967765E9
+Kia,Optima SX Turbo,17238.0,1,1.781340444E9
+BMW,650 Gran Coupe i xDrive,24800.0,3,1.23E9
+Ford,Shelby GT500 Base,82659.25,4,5.1567584E7
+Lincoln,MKX Base,5900.0,1,9.204E8
+BMW,X7 xDrive50i,65998.0,1,2.056299686E9
+Cadillac,Escalade Luxury,28762.25,4,1.84345E9
+Chevrolet,Camaro 2SS,38167.64705882353,17,7.686E7
+GMC,Yukon XL Denali,55477.4,5,6.9666E8
+Mazda,Mazda6 i Touring,13950.0,2,1.5996E9
+Lincoln,Corsair Standard,38500.0,1,1.7402E8
+Hyundai,Sonata Sport,14599.0,1,1.228199271E9
+Cadillac,SRX Performance Collection,8450.0,1,1.0523799E9
+Mazda,CX-30 Base,24899.0,1,4.81023781E8
+Toyota,4Runner Limited Nightshade,39857.0,1,1.946695594E9
+Aston,Martin DB7 Vantage Volante,32850.0,1,4.89465E8
+Ford,E150 XLT,12500.0,1,2.02625E9
+Chevrolet,Traverse Premier,37929.666666666664,3,5.54882E8
+Porsche,Cayman S,43666.666666666664,3,2.6352E8
+Kia,Niro EX,31113.0,1,2.35774314E8
+INFINITI,QX60 AUTOGRAPH,57999.0,1,3.47994E8
+Toyota,Prius Plug-in Base,11800.0,1,1.2508E9
+BMW,M240 i xDrive,55000.0,1,1.1055E8
+Ford,Mustang GT Premium,30886.875,16,1.485E8
+Audi,Q8 55 Premium Plus,61529.5,2,9.0062025E8
+Ford,Bronco Sport Base,29182.0,1,4.0460843E8
+Jeep,Wrangler S,15000.0,1,7.6125E8
+BMW,X3 sDrive30i,39990.0,1,5.11872E8
+Acura,RLX Advance Package,15450.0,1,1.58617425E9
+Jaguar,XF 35t R-Sport,30000.0,1,1.44E9
+Mazda,Mazda6 Grand Touring,22966.0,1,8.24525332E8
+Lincoln,Navigator Base,13783.0,3,1.504751E9
+Mercedes-Benz,Sprinter 3500 High Roof,137500.0,2,2.1E7
+Porsche,Macan Base,40900.0,5,7.8E8
+Mazda,Mazda6 i Grand Touring,17800.0,1,1.47918E9
+Toyota,Tacoma TRD Pro,42893.0,2,1.23552E9
+Mercedes-Benz,S-Class S 450 4MATIC,60000.0,1,4.35E9
+Nissan,370Z NISMO Tech,31950.0,1,1.36107E9
+RAM,3500 Tradesman,60950.0,2,2.09001E8
+Cadillac,XLR Base,36500.0,1,2.5339395E9
+BMW,128 i,18000.0,1,1.221732E9
+Toyota,Venza XLE,14200.0,1,1.4692172E9
+Jeep,Grand Cherokee Summit,39366.0,1,1.234084734E9
+BMW,750 i xDrive,46478.4,5,1.465886512E9
+BMW,M4 Competition xDrive,89296.66666666667,3,1.04048E8
+Mercedes-Benz,Sprinter 3500XD High Roof,45000.0,1,1.4985E9
+Land,Rover Range Rover Sport SVR,86950.0,2,1.7357943E9
+Porsche,Cayenne GTS Coupe AWD,145000.0,1,1.45E9
+Tesla,Model S Long Range,67825.0,2,1.925E9
+Rolls-Royce,Wraith Base,217000.0,1,4.557E9
+Audi,S7 4.0T Premium Plus,39999.0,1,2.0999475E9
+Mercedes-Benz,AMG GLE AMG GLE 63 S-Model 4MATIC,49149.5,2,1.8582531E9
+Bentley,Continental GT Speed,204675.0,2,2.498643E8
+Kia,Sorento EX,16999.0,1,1.09286571E9
+Audi,A6 3.2 quattro,5700.0,1,1.1514E9
+Ford,Expedition XLT,32126.0,2,8.550549E8
+Jeep,Wrangler 80th Anniversary,37500.0,1,1.0125E9
+Porsche,Cayenne E-Hybrid S,23000.0,1,2.208E9
+Lincoln,Corsair Grand Touring,49000.0,1,9.065E7
+RAM,2500 SLT,36625.0,4,2.4770725E9
+Ford,Mustang Bullitt,44999.0,1,2.1824515E9
+Porsche,Panamera Base,55749.5,2,2.2949575E9
+Chevrolet,Silverado 2500 H/D,6500.0,1,1.0855E9
+Toyota,Tacoma Base,26966.0,3,7.2E8
+Chevrolet,Silverado 1500 2LT,34225.0,2,8.6759E8
+Porsche,911 Carrera Cabriolet,46599.0,5,7.722E8
+Porsche,Cayenne Turbo S,34000.0,2,3.1712E9
+Hyundai,Sonata Hybrid Limited,19966.333333333332,3,8.86385E8
+Audi,RS Q8 4.0T quattro,119900.0,1,1.3575078E9
+Audi,Q3 45 S line Premium,33610.0,1,3.1341325E8
+Porsche,Panamera Turbo,57550.0,4,2.35E9
+Mitsubishi,Eclipse GS,6000.0,1,1.137E9
+Mercedes-Benz,S-Class S 560 4MATIC,58259.6,5,8.1795E8
+Chevrolet,Silverado 1500 Hybrid 1HY,20995.0,1,1.741808185E9
+Lexus,HS 250h Premium,9500.0,1,1.17325E9
+Volkswagen,Jetta S,6000.0,1,5.94E8
+Ford,F-150 Lariat SuperCrew,9500.0,1,2.5745E9
+Mercedes-Benz,GLA-Class GLA 45 AMG,22000.0,1,1.7666E9
+Acura,RL Technology,10995.0,1,1.0742115E9
+Audi,A5 2.0T Premium,18399.0,5,9.21568985E8
+Acura,TLX w/A-Spec Package,39998.0,1,5.95810208E8
+INFINITI,QX80 Base,23385.0,5,1.557E9
+Mazda,MX-5 Miata RF Grand Touring,20500.0,1,1.066E9
+Kia,K5 EX,28999.0,2,2.39627E8
+Kia,K5 GT-Line,26469.333333333332,3,3.29108058E8
+Chevrolet,Suburban 1500 LTZ,17212.5,4,1.9303E9
+GMC,Sierra 2500 SLE H/D Extended Cab,16900.0,1,9.10065E8
+BMW,535 i xDrive,15920.285714285714,7,7.8455E8
+Volvo,XC70 T6 Platinum,15900.0,1,1.0971E9
+Dodge,Challenger SXT,23900.0,2,9.145E8
+Lexus,RX 350 F SPORT Appearance,49998.0,1,1.413043476E9
+Jeep,Grand Cherokee Altitude,35470.0,1,1.25170083E9
+MINI,Countryman Cooper S,26750.0,1,5.0816975E8
+Chevrolet,Silverado 1500 High Country,48889.0,1,4.310103129E9
+Hyundai,Genesis Coupe 2.0T R-Spec,18000.0,1,9.9E8
+Porsche,Macan GTS,96900.0,1,6.282027E8
+Toyota,Corolla S Plus,16000.0,1,1.093824E9
+Nissan,Juke SL,12483.333333333334,3,9.34375E8
+INFINITI,G37 S Sport,16500.0,1,1.9214415E9
+RAM,1500 Limited,49739.5,4,1.2056E9
+Jeep,Grand Cherokee L Limited,41180.833333333336,6,5.48462125E8
+Chevrolet,Cruze LS,7750.0,2,8.5E8
+Jeep,Grand Cherokee L Overland,48995.0,1,1.55823698E9
+Toyota,4Runner TRD Pro,44295.0,2,1.84317432E9
+Audi,A6 3.0T Premium Plus,22000.0,2,1.56816E9
+FIAT,500 Sport,11500.0,1,5.497E8
+Ford,Escape Limited,7000.0,1,9.03E8
+Mitsubishi,Lancer Evolution GSR,31499.5,2,1.154967E9
+Volkswagen,Golf GTI 2.0T S 4-Door,14500.0,1,1.2905E9
+Lexus,LX 600 F SPORT,122994.5,2,6.124951E7
+Chevrolet,SSR Base,18997.0,2,1.4874125E9
+Toyota,Tundra Hybrid Limited,63100.0,1,6.781988E8
+Lexus,RX 450h F SPORT Handling,52998.0,1,1.66228227E9
+Nissan,Frontier SL,17000.0,1,1.7578E9
+Lexus,LS 500 Base,40900.0,1,2.7524064E9
+Kia,Sportage S,24995.0,1,4.23640255E8
+Bentley,Continental GTC V8,77999.0,1,1.47808105E9
+Cadillac,CT6 Luxury,45480.0,1,1.00906476E9
+Porsche,Carrera GT Base,1599000.0,1,7.0356E9
+Nissan,Xterra S,8087.25,4,7.061991E8
+FIAT,124 Spider Abarth,22500.0,1,1.0125E9
+Lincoln,MKC Reserve,27445.0,2,1.09563741E9
+Volkswagen,Passat 2.0T R-Line,25998.0,1,4.29954924E8
+Honda,CR-V EX-L,20848.0,1,1.533349552E9
+BMW,328 xi,8995.0,1,7.46585E8
+BMW,530e Base,47000.0,1,1.0669E9
+Jeep,Patriot Latitude,7599.0,1,8.28291E8
+Chevrolet,Malibu Premier,28000.0,1,9.352E8
+Chevrolet,Silverado 1500 Limited Custom,37698.0,1,1.14809259E9
+Hyundai,Tucson SEL,27999.0,1,3.82634334E8
+Porsche,718 Boxster Base,54250.0,2,4.221E8
+Lincoln,MKC Select,26545.0,1,1.32231263E9
+Toyota,Tundra SR5 Access Cab,8375.0,2,1.78075E9
+Mercedes-Benz,AMG GT 53 Base,91124.75,4,2.4585E8
+Bentley,Bentayga Speed,168472.5,2,2.46201155E9
+Porsche,911 Carrera,93339.875,16,2.235E8
+Ford,Taurus SHO,10100.0,2,7.52E8
+Toyota,86 860 Special Edition,20000.0,1,1.75E9
+Tesla,Model X Long Range Plus,68313.33333333333,3,2.3783E9
+Lamborghini,Huracan LP580-2,209995.5,2,3.062928726E9
+Chevrolet,Silverado 3500 LTZ,60194.5,2,4.873668461E9
+Chrysler,Sebring LX,4900.0,1,3.297847E8
+BMW,840 Gran Coupe i xDrive,52999.0,1,1.367003207E9
+Subaru,Impreza WRX Base,16000.0,1,1.808E9
+Jaguar,XF 25t Prestige,32500.0,1,1.2277525E9
+Bentley,Bentayga Activity Edition,113000.0,1,4.633E9
+Audi,A4 2.0T Premium quattro,5500.0,1,9.955E8
+Genesis,GV70 3.5T Sport,52929.75,4,3.24E8
+Genesis,G90 3.3T Premium,53950.0,1,5.368025E8
+Mercedes-Benz,AMG G 63 Base,178482.16666666666,6,3.4999125E8
+Nissan,Leaf S,13999.0,1,7.9024355E8
+Jeep,Wrangler Unlimited Sport,28014.727272727272,11,8.4796292E8
+Subaru,Outback 3.6R Limited,19500.0,1,1.698294E9
+Ford,Focus SE,10165.666666666666,6,4.044E8
+Bentley,Continental GT V8 S,103900.0,1,3.27285E9
+Toyota,Celica GT,7800.0,1,9.516E8
+Mercedes-Benz,S-Class S 450,40888.0,1,2.8458048E9
+Jaguar,XJ6 Vanden Plas,19000.0,1,1.33E9
+Mercedes-Benz,SL-Class SL600 Roadster,22749.5,2,1.7985218E9
+Lexus,SC 300 Base,8700.0,1,1.4355E9
+Mercedes-Benz,GLK-Class GLK 350,10747.5,2,1.140304E9
+Volkswagen,Eurovan MV,9750.0,2,1.21E9
+Jeep,Grand Cherokee WK Laredo X,37500.0,1,4.1865E8
+RAM,1500 Classic Warlock,32597.5,2,6.31598E8
+Audi,A6 3.0T Prestige,18999.0,2,1.611E9
+Chevrolet,Suburban High Country,71247.5,2,1.711962E9
+Acura,MDX 3.5L w/Technology Package,27698.0,1,2.50957729E9
+Ford,Mustang EcoBoost,31000.0,1,5.363E8
+Chevrolet,Silverado 2500 LT H/D Extended Cab,19500.0,1,3.2955E9
+Toyota,Matrix XR,4000.0,1,6.93808E8
+Maserati,Ghibli S Q4,29932.5,6,3.6E7
+Mercedes-Benz,CLK-Class CLK 350,13725.0,4,3.87E8
+Mazda,MX-5 Miata Base,13850.0,4,2.0372E8
+Nissan,350Z Touring,11800.0,4,8.5884E8
+Nissan,Armada Platinum,33069.4,5,5.0358E8
+Land,Rover Range Rover 3.0L Supercharged,48899.0,2,2.0111E9
+Subaru,WRX Base,21583.333333333332,3,1.2075E9
+Lincoln,MKC Base,14900.0,1,1.4155E9
+Porsche,718 Cayman GT4,130947.5,2,2.8749E8
+McLaren,720S Performance,302472.5,2,1.4199064E9
+Land,Rover Range Rover Sport SE MHEV,69000.0,1,1.035E9
+Chevrolet,Cruze LT Automatic,12999.0,1,1.598500029E9
+BMW,435 Gran Coupe i,24972.5,2,1.5021995E9
+Dodge,Charger R/T,20637.5,4,3.2515445E8
+Genesis,GV70 2.5T,46599.5,2,5.3845E8
+Ford,Mustang V6,18934.5,4,1.08585E9
+Mercedes-Benz,Sprinter Normal Roof,54995.0,1,2.18594126E9
+Plymouth,Prowler Base,28500.0,1,6.3555E8
+Lamborghini,Aventador LP700-4,399900.0,1,1.3012746E9
+Hyundai,Santa Fe Sport 2.0L Turbo,20900.0,1,9.5722E8
+Hyundai,Elantra N Base,33150.0,2,1.292E8
+Mercedes-Benz,AMG GLA 45 Base 4MATIC,32000.0,1,1.6544E9
+Nissan,Maxima SV,17626.666666666668,3,7.18403E8
+Mercedes-Benz,E-Class E 350 4MATIC,17414.76923076923,13,5.13332994E8
+BMW,650 i,21999.0,5,6.475E8
+Honda,Civic Si,19600.0,1,9.26002E8
+Volkswagen,Golf GTI 2.0T SE 4-Door,21515.0,5,9.075E8
+GMC,Sierra 1500 AT4,62499.0,1,6249900.0
+Ford,Transit-350 XL,34750.0,2,3.551E9
+Hyundai,Veloster Base,10150.0,2,7840000.0
+Audi,Q7 55 Prestige,38120.0,2,1.6359E9
+Land,Rover Range Rover Sport HSE,24530.0,8,1.05E9
+Ford,Thunderbird Deluxe,18000.0,3,7.42035E8
+Lincoln,MKZ Select,12500.0,1,6.5355E8
+Toyota,Tundra SR5 Double Cab,9850.0,2,1.6949E9
+Saab,9-3 Aero,12950.0,1,1.3727E9
+Lincoln,MKZ Base,12581.666666666666,3,7.53466175E8
+Nissan,Titan XD S,27900.0,1,1.4975883E9
+Audi,R8 Base,63000.0,1,3.087E9
+MINI,Hardtop Cooper S,21569.5,4,7.1331E8
+RAM,1500 Classic SLT,35113.0,1,1.126846396E9
+Land,Rover Range Rover 3.0L Supercharged HSE,45487.25,4,2.36598E9
+Land,Rover Range Rover Sport Supercharged Dynamic,53499.0,1,3.1082919E9
+Chevrolet,Bolt EV LT,21200.0,2,8.623825E8
+Toyota,Mirai Limited,18500.0,1,8.14E8
+Subaru,Crosstrek 2.0i Limited,22749.5,2,1.7904E9
+Honda,Accord Hybrid Base,28748.0,1,9.63719204E8
+Lexus,IS 350 Base,21880.0,5,1.3287E9
+Land,Rover LR4 HSE LUX Landmark Edition,24500.0,2,1.9623E9
+GMC,Sierra 2500 SLE,31900.0,1,3.707099E9
+Chevrolet,Silverado 1500 LT Trail Boss,44283.0,2,2.123957906E9
+Nissan,NV200 S,19500.0,1,1.014E9
+Toyota,Camry Solara SLE,11098.333333333334,3,5.5805392E8
+Chevrolet,Express 3500 Base,20450.0,2,1.4175E9
+Alfa,Romeo Giulia Ti,33809.0,5,7.8E7
+Porsche,Macan,61332.0,3,2.144025E8
+Ford,F-250 XLT,44685.5,12,9.21289E8
+Alfa,Romeo Stelvio Base,27500.0,1,1.375E9
+Hyundai,Veloster Value Edition,15599.0,1,8.63545041E8
+Toyota,Tacoma PreRunner,16248.75,4,1.3325E9
+Lincoln,Navigator Select,19780.0,1,3.12524E9
+Saturn,Sky Red Line,12998.333333333334,3,5.54815E8
+Ford,Mustang Base,11900.0,2,6.5817E8
+Lexus,IS 250C Base,18500.0,1,1.26725E9
+Dodge,Viper GTC,489995.0,1,6.80603055E8
+Ford,Mustang Premium,8116.666666666667,3,1.0007167E9
+Subaru,Legacy 2.5 GT spec.B,12500.0,1,1.175E9
+Ford,Bronco XLT,15000.0,1,2.925E9
+Nissan,Titan XD SV,35507.0,2,4.72187214E8
+Bentley,Bentayga Azure First Edition,272950.0,1,3.6438825E8
+Mercedes-Benz,GL-Class GL 550,17500.0,1,1.40217E9
+Ford,Expedition Max XLT,38728.666666666664,3,2.582272E9
+BMW,M3 Competition xDrive,95580.0,1,3.335742E8
+Toyota,4Runner Venture Special Edition,44775.0,1,1.279087425E9
+Chevrolet,Express 1500 Base,4900.0,1,9.996E8
+Mercedes-Benz,GLC 300 Base,33500.0,1,1.4310195E9
+Audi,Q8 3.0T Premium,44870.0,1,2.33252208E9
+BMW,M4 CS,69998.0,1,1.334791862E9
+BMW,Z4 2.5i Roadster,9950.0,1,1.3731E9
+Toyota,Camry Hybrid Base,8575.0,2,4.9255325E8
+Volkswagen,e-Golf SE,12000.0,1,4.9938E8
+Nissan,Maxima GLE,2300.0,1,4.468371E8
+Dodge,Ram 2500 Quad Cab,27500.0,1,4.7046725E9
+Volkswagen,Golf R 20th Anniversary Edition,47999.0,1,3.0383367E7
+Mercedes-Benz,GLC 300 GLC 300,42198.0,5,6.5891584E7
+Ford,Transit Connect XL w/Rear Symmetrical Doors,33500.0,1,7.699975E8
+Land,Rover Defender S,66449.5,2,9.575848E8
+Kia,Stinger GT1,40448.5,2,3.80410912E8
+Mazda,Mazda3 i Sport,11500.0,1,1.863E9
+Chevrolet,Silverado 2500 LT,27599.666666666668,3,3.1066928E9
+BMW,428 i xDrive,15000.0,1,1.875E9
+Nissan,Frontier SV,16165.0,3,1.0385E9
+Mazda,Mazda3 i SV,12000.0,1,1.1004E9
+Cadillac,CTS 3.6L Luxury,19425.0,1,1.053981075E9
+Audi,R8 4.2 quattro Spyder,94900.0,1,3.3520578E9
+Pontiac,GTO Base,21999.0,1,3.130765686E9
+BMW,550 i xDrive,24550.0,2,1.2193E9
+Toyota,Corolla LE,10030.0,3,2.6425E8
+Toyota,Sienna LE,18300.0,1,1.3908E9
+Audi,S4 4.2 quattro,16000.0,1,1.18448E9
+Nissan,Pathfinder Platinum,13000.0,1,1.4638E9
+Toyota,Tacoma TRD Sport,39064.666666666664,3,1.436734234E9
+Land,Rover Range Rover Velar R-Dynamic S,57619.0,1,7.15916075E8
+Jeep,Grand Wagoneer Base,84620.0,1,3.1749424E8
+Audi,A3 2.0T Premium,18138.8,5,7.758025E8
+Audi,S5 3.0T Premium Plus,20695.0,2,1.764721E9
+Audi,S5 3.0 Premium Plus,19500.0,1,1.198275E9
+INFINITI,M37 x,19900.0,1,9.751E8
+MINI,Cooper S Base,8144.8,10,3.555E8
+BMW,335 i xDrive,18999.666666666668,3,1.360398E9
+Nissan,Maxima 3.5 SR,26999.0,1,1.94797785E9
+Ford,F-150 Heritage XL SuperCab Flareside,30500.0,1,1.83793E9
+BMW,750 Li,9000.0,1,1.030752E9
+Chevrolet,Silverado 1500 LT Extended Cab,5900.0,1,6.9915E8
+Ford,F-150 Lightning LARIAT,71900.0,1,3.3793E7
+Lexus,ES 300h Base,20697.5,2,1.565582995E9
+Mercedes-Benz,Sprinter High Roof,41166.333333333336,3,5.925E7
+Hyundai,Santa Fe SEL,28633.0,3,8.0175095E7
+Lexus,RX 350 Base,26172.11111111111,9,2.46456E8
+Porsche,Boxster Base,17774.166666666668,6,8.82E8
+GMC,Sierra 1500 Denali,54399.5,2,2.254129267E9
+Chevrolet,Sonic LT,7500.0,1,8.25E8
+Jeep,Grand Cherokee Laredo,13498.75,4,1.44045E9
+Dodge,Charger Scat Pack,40000.0,2,1.527904E9
+Cadillac,Escalade Platinum,55800.0,3,2.660742E9
+Lexus,GX 460 Luxury,55445.0,2,1.04489E9
+Lamborghini,Gallardo LP570-4 Superleggera,229000.0,1,3.664E9
+Audi,Q4 e-tron 50 Premium Plus,52000.0,1,1.3E7
+Volkswagen,Jetta 1.4T R-Line,17135.0,2,1.06546386E9
+Lexus,LX 570 Base,46598.333333333336,3,2.1168995E9
+Lexus,LX 600 Premium,119500.0,1,1.7925E8
+Volkswagen,Golf R 4-Door,24975.0,2,1.4119628E9
+Audi,e-tron Premium,39599.0,1,7.14009569E8
+Chevrolet,Silverado 1500 LT Crew Cab,6995.0,1,1.503925E9
+Lexus,GS 350 Base,17149.333333333332,3,2.0034E9
+Mercedes-Benz,SLK-Class SLK 350,22207.333333333332,3,4.88E8
+Acura,Integra GS-R,10999.0,1,1.352877E9
+Chrysler,200 C,9347.5,2,5.588E8
+Honda,Civic Sport,23660.8,5,5.49106809E8
+INFINITI,FX37 Base,23900.0,1,1.23085E9
+Chevrolet,Silverado 1500 1LZ,26000.0,1,2.88847E9
+Chevrolet,Silverado 1500 Base,17150.0,2,6.035E8
+Lamborghini,Aventador S Base,491836.0,1,2.881175288E9
+Toyota,Land Cruiser Base,31149.166666666668,12,1.605744E9
+Lamborghini,Gallardo Base,100000.0,1,3.88E9
+INFINITI,Q70 3.7,19995.0,1,1.40588844E9
+Mercedes-Benz,GLS 450 Base,71998.0,1,2.99115691E9
+Volkswagen,Jetta GLX VR6,4300.0,1,5.2374E8
+Acura,ILX Premium Package,24532.666666666668,3,4.2877588E8
+Chevrolet,Camaro 1SS,43562.375,8,3.4527336E8
+Ford,F-150 Raptor,67948.8,5,1.3594329E9
+Audi,A6 3.0 TDI Premium Plus,26500.0,1,1.1236E9
+Tesla,Model S Long Range Plus,67800.0,1,7.1529E8
+RAM,2500 Longhorn,52500.0,1,3.7905E9
+Audi,Q5 40 Premium,41500.0,1,6.03825E8
+Lexus,RX 350 RX 350,54598.0,1,1.221466456E9
+BMW,X4 M40i,67900.0,1,5.7715E8
+Lexus,LX 570 Three-Row,80174.875,8,1.392188E9
+Audi,Q7 45 Premium Plus,36499.0,1,2.481932E9
+Audi,RS 7 4.0T Performance Prestige,63550.0,2,2.6529209E9
+Mazda,Mazda3 Touring,20500.0,1,5.808265E8
+Ford,Focus RS Base,35900.0,3,5.811E8
+BMW,X5 PHEV xDrive45e,69973.75,4,2.32409505E8
+Mazda,CX-7 Grand Touring,6950.0,1,5.778925E8
+Jaguar,XF 25t Premium,26000.0,1,4.888E8
+Mercedes-Benz,C-Class C 63 AMG,42166.666666666664,3,1.89E9
+Bentley,Bentayga W12 Signature,115785.0,1,3.690646875E9
+Mercedes-Benz,S-Class S500,7000.0,1,1.230054E9
+Mazda,MX-5 Miata RF Club,35619.0,1,2.5823775E8
+Dodge,Challenger GT,32500.0,1,1.3E9
+Lamborghini,Huracan EVO Coupe,279991.0,1,1.600988538E9
+Lexus,RX 450h F Sport Handling,59000.0,1,9.44E7
+Kia,Sorento SX,5999.0,1,1.025829E9
+Chrysler,300 Touring,16762.0,4,4.165E8
+Porsche,718 Cayman S,69000.0,1,6.555E8
+Ford,Bronco Sport Outer Banks,32495.333333333332,3,4.80575958E8
+Chevrolet,Suburban 2500 LS,24950.0,1,1.497E9
+RAM,3500 Laramie,51466.333333333336,3,1.181991352E9
+Mercedes-Benz,GL-Class GL 450,12574.75,4,1.1067E9
+Nissan,Juke NISMO RS,21500.0,1,6.6005E8
+Ford,Edge SE,18900.0,1,1.34568E9
+Tesla,Model X 100D,57000.0,1,1.32525E9
+Dodge,Grand Caravan SE,35000.0,1,2.24E9
+Cadillac,XT5 Base,26000.0,1,1.934764E9
+Toyota,4Runner Limited,30729.85714285714,7,1.134589234E9
+Mazda,CX-90 Premium,52991.0,1,2.0560508E8
+Chevrolet,Tahoe Premier,52824.333333333336,3,2.423078667E9
+Dodge,Magnum R/T,12000.0,1,1.152E9
+Mazda,CX-30 2.5 S Select Package,25500.0,1,1.02102E8
+BMW,Z4 sDrive35is,64995.0,1,2.72979E8
+Chevrolet,Silverado 1500 LT,31427.5,4,1.28486907E9
+Lincoln,Navigator L Select,23860.5,2,2.125424112E9
+Dodge,Charger SRT Hellcat,67000.0,1,3.63944E9
+Toyota,Avalon Hybrid XLE Premium,11500.0,1,1.8515E9
+BMW,750 750i xDrive,73998.0,1,8.07836166E8
+Mazda,CX-30 Premium Package,27724.0,3,7.521826E7
+Volvo,V60 T6 R-Design Platinum,29900.0,1,1.7722029E9
+GMC,Sierra 2500 Base,45750.0,2,4.5155E8
+Acura,ILX Premium & A-SPEC Packages,25000.0,1,4.875E8
+Toyota,Prius Touring,6999.0,1,9.973575E8
+Jeep,Liberty Renegade,6500.0,1,9.41005E8
+Land,Rover Range Rover Velar P380 S,40000.0,1,1.84E9
+Honda,Accord Sport,6000.0,1,2.43E9
+BMW,i3 94 Ah,16500.0,1,7.095E8
+BMW,540 i xDrive,40997.75,4,8.82E8
+Land,Rover Range Rover P530 SE LWB 7 Seat,183500.0,2,6.825E7
+Ford,Bronco Outer Banks,54633.0,3,9.882E7
+Mercedes-Benz,AMG GT R,148500.0,1,5.659335E8
+Cadillac,CTS 3.6L Premium Luxury,22500.0,1,3.063375E9
+Ford,Maverick XLT,31000.0,2,5.576E8
+Toyota,Highlander Platinum,38700.0,1,1.5867E9
+Ford,Edge Titanium,16250.0,2,1.622192E9
+Volkswagen,Golf Alltrack TSI SE,20900.0,1,1.3224893E9
+Audi,Q5 Premium,42998.0,1,1.0427015E8
+Mercedes-Benz,CLK-Class 500 Cabriolet,12995.0,1,8.3168E8
+Audi,S4 3.0T Premium,45450.0,2,5.76E8
+BMW,M2 Base,62800.0,2,8.5376E7
+Hyundai,Genesis 3.8,15047.5,4,1.020558E9
+Mercedes-Benz,S-Class S 560,50999.0,2,2.381132E9
+Buick,Lucerne CXL,5000.0,1,5.5E8
+GMC,Yukon SLT,20985.285714285714,7,1.1127774E9
+Chevrolet,Silverado 2500 High Country,74247.5,2,1.18392E9
+Nissan,Murano SV,26567.5,2,6.9870827E8
+Mercedes-Benz,M-Class ML 350 4MATIC,20500.0,2,1.6140695E9
+Dodge,Ram 2500 SLT Mega Cab,19998.0,1,1.954284552E9
+Audi,S6 4.0T Premium Plus,49999.0,1,3.062838742E9
+Chrysler,Pacifica Touring,14500.0,2,7.85745E8
+Nissan,Armada SL,38832.666666666664,3,7.5145553E8
+Kia,Sportage LX,12818.75,4,4.147E8
+Ferrari,488 GTB Base,243900.0,1,4.3319079E9
+Jaguar,XF XFR-S,70000.0,1,2.9953E8
+Hyundai,Genesis Coupe 3.8 Base,18999.5,2,9.51317697E8
+Nissan,Titan SV,41961.333333333336,3,2.755E8
+Land,Rover Range Rover Sport SVR Carbon Edition,115000.0,1,1.035E9
+Kia,Sorento Hybrid EX,37500.0,1,1.35375E9
+Chevrolet,Corvette ZR-1,78000.0,1,1.404E9
+Volkswagen,Atlas 3.6L SEL Premium R-Line,46900.0,1,6.566E8
+Chevrolet,Impala Base,5900.0,1,3.8055E8
+Chevrolet,Tahoe LS,9000.0,1,1.53E9
+RAM,ProMaster 3500 High Roof,37306.0,2,7.76075E8
+Land,Rover Range Rover Supercharged,12700.0,2,1.1314413E9
+Mercedes-Benz,AMG GLS 63 4MATIC,159832.0,2,3.5E8
+BMW,M440 i,60000.0,1,8.22E8
+Ford,E350 Super Duty XLT,16775.0,2,3.18665E9
+Nissan,Titan SE,19500.0,1,2.4882E9
+Tesla,Model X 75D,48050.0,3,2.704E9
+Land,Rover Range Rover P400 SE LWB 7 Seat,155000.0,1,6.3953E8
+Ford,Fiesta ST,18300.0,1,5.256492E8
+Toyota,Corolla CE,5199.0,1,8.8383E8
+Kia,Sorento Plug-In Hybrid SX Prestige,44990.0,1,4.5444399E8
+Subaru,Impreza WRX STI,30000.0,1,2.31E9
+Karma,Revero Base,53250.0,2,1.071E9
+Jaguar,F-PACE 30t R-Sport,59598.0,1,2.04808527E9
+Tesla,Model S 100D,46162.5,4,1.73865E9
+Dodge,Challenger SE,12000.0,1,1.08366E9
+Cadillac,Escalade ESV Platinum Edition,20500.0,1,2.4395E9
+Toyota,Camry XLE,8475.0,2,5.6715E8
+Jeep,Renegade Trailhawk,17500.0,1,1.3775475E9
+Cadillac,CTS Base,7799.0,2,5.739159E8
+BMW,325 i,4900.0,2,6.816E8
+Alfa,Romeo Stelvio Ti,38150.0,2,2.917155E8
+Land,Rover Range Rover Evoque R-Dynamic HSE,44998.0,1,1.369019152E9
+Acura,RDX Technology Package,36570.0,1,1.13421855E9
+BMW,435 i xDrive,21800.0,1,1.9695646E9
+Kia,Optima S,15000.0,1,1.11E9
+Tesla,Model S Plaid,69995.0,1,1.4068995E9
+Lexus,NX 200t Base,22465.0,3,1.458E9
+INFINITI,M56 Base,8500.0,1,1.1645E9
+Toyota,Tundra Hybrid TRD Pro,73250.0,2,5.285E8
+Lexus,ES 350 Base,21820.916666666668,12,5.11269936E8
+Chevrolet,Express 3500 LT,19500.0,1,2.34E9
+Dodge,Caliber Express,6000.0,1,6.16086E8
+Mazda,CX-9 Carbon Edition,36969.0,1,1.029069084E9
+Porsche,Panamera 4,40650.0,2,1.4879436E9
+Kia,Niro Plug-In Hybrid EX,31500.0,1,2.961E8
+BMW,430 Gran Coupe i xDrive,29998.0,1,8.7069195E8
+Kia,Niro EV EX,29998.0,1,5.9996E8
+Nissan,Armada LE,13450.0,2,1.050663E9
+Mercedes-Benz,GLE 450 GLE 450,63998.0,1,1.593934188E9
+Alfa,Romeo Stelvio Quadrifoglio,53900.0,1,1.42835E9
+Mercedes-Benz,S-Class S 580 4MATIC,109283.0,3,1.2159755E8
+INFINITI,QX70 Base,18397.5,2,1.350487515E9
+Toyota,Highlander Hybrid Limited,20353.5,2,1.324465E9
+Chevrolet,Traverse LS,33299.0,1,1.069463983E9
+BMW,330e iPerformance,23646.666666666668,3,8.7234225E8
+Mitsubishi,Outlander Sport 2.4 SE,11970.0,1,1.57038021E9
+Genesis,G80 3.8,30700.0,2,7.5284E8
+Ford,Expedition EL Limited,23497.5,2,2.07948E9
+Hyundai,Sonata GLS,7499.5,2,5.39865E8
+Maserati,Quattroporte S,35748.0,2,1.04532677E9
+Chevrolet,Express 1500 Work Van,18497.5,2,2.027158E9
+Dodge,Ram 1500 ST,11998.75,4,5.84E8
+BMW,M760 i xDrive,86615.0,2,1.0180682E9
+Ford,Transit-350 Base,41183.333333333336,6,1.70625E7
+Land,Rover Range Rover P525 HSE SWB,64500.0,1,3.2184855E9
+Toyota,Corolla iM Base,18700.0,1,7.841284E8
+Toyota,Yaris L,7950.0,1,1.02837225E9
+Volvo,XC90 3.2 Premier Plus,7500.0,1,1.56648E9
+BMW,i3 120Ah w/Range Extender,25994.0,2,4.5815525E8
+Cadillac,CTS 2.0L Turbo Luxury,24149.75,4,6.21037304E8
+Porsche,718 Cayman GTS,85500.0,1,1.39194E9
+Kia,Telluride LX,40000.0,1,2.2E8
+Chevrolet,Avalanche 1500 LT,14633.333333333334,3,1.53E9
+Buick,LaCrosse CX,6500.0,1,3.445E8
+Mitsubishi,Lancer DE,3000.0,1,4.30038E8
+BMW,530 i,31000.0,1,1.147E9
+Ford,Explorer Sport,20000.0,1,1.91E9
+Dodge,Grand Caravan R/T,35000.0,1,1.505E9
+Ford,Explorer Eddie Bauer,9999.0,1,1.4418558E9
+Mercedes-Benz,AMG G AMG G 63 4MATIC,90000.0,1,2.96424E9
+Acura,Integra w/A-Spec Tech Package,34998.0,1,1.25082852E8
+Audi,RS 7 4.0T,132249.0,2,6.6625E8
+Audi,allroad 2.7T,6500.0,1,9.945E8
+Volvo,C40 Recharge Pure Electric Twin Ultimate,54900.0,1,9.333E8
+INFINITI,Q50 Premium,18239.0,2,1.31549508E9
+Subaru,Impreza 2.0i Sport,23500.0,1,1.034E9
+Jaguar,F-PACE SVR,57500.0,1,2.231E9
+Volkswagen,Golf SportWagen TSI SE,16500.0,1,5.58525E8
+Hyundai,Palisade SEL,33201.666666666664,3,1.32036971E9
+Toyota,Highlander Base,4300.0,1,9.957983E8
+Volvo,XC60 T6 Inscription,32900.0,2,7.589264E8
+Audi,Q7 3.0T Prestige,30425.0,2,1.89566E9
+INFINITI,QX80 SENSORY,71495.0,2,6.79314E8
+Subaru,Impreza 2.0i,16249.333333333334,3,6.375E8
+Mercedes-Benz,SL-Class SL400,39998.0,1,1.46672666E9
+Dodge,Ram 1500 SLT Mega Cab,11000.0,1,2.216599E9
+Land,Rover Range Rover Sport 3.0L Supercharged HSE,32791.0,3,2.411933E9
+Audi,S8 4.2 quattro,13850.0,1,1.7451E9
+Toyota,GR86 Premium,40999.666666666664,3,3.7625E7
+Cadillac,XT6 Sport AWD,49427.0,1,1.191882678E9
+Mazda,MazdaSpeed3 Grand Touring,6500.0,1,1.053E9
+Ford,F-250 XL SuperCab H/D,21900.0,1,2.5185E9
+Jaguar,XK Base,22600.0,2,1.008E9
+Mazda,Mazda6 Carbon Edition,29995.0,1,6.4321278E8
+Mercedes-Benz,SLK-Class SLK320,6500.0,1,3.8675E8
+BMW,440 Gran Coupe 440i xDrive,38598.0,1,1.00316202E9
+Kia,Sportage Nightfall,29432.5,2,3.0016914E8
+BMW,X5 3.0i,6730.0,1,9.422E8
+Volvo,S90 T5 Momentum,18000.0,1,1.71E9
+Porsche,Panamera 4 Platinum Edition,99000.0,1,1.052073E9
+Volkswagen,Arteon SEL R-Line,38698.0,1,7.2191119E8
+Audi,RS 5 4.2,40449.5,2,2.2045002E9
+Mazda,CX-9 Touring Plus,40655.0,1,7.846415E7
+Cadillac,LYRIQ Luxury,68750.0,1,7.49375E7
+Porsche,911 Carrera 4,72500.0,2,1.94085E9
+Subaru,Outback Limited,30915.5,2,5.24290716E8
+Ford,Bronco Heritage Edition Advanced,60000.0,1,9.0E7
+Ford,Explorer Timberline,39951.0,1,1.00836324E9
+Lexus,GX 460 Base,36937.27272727273,11,1.9798E9
+Lexus,IS 250 Base,9869.0,5,7.58598565E8
+Tesla,Model 3 Long Range,36865.63636363636,11,1.38458846E8
+Ford,Bronco Raptor,98900.0,1,2.461621E8
+Nissan,370Z Touring,19333.0,3,8.0625E8
+Chevrolet,Silverado 1500 Limited LT Trail Boss,57000.0,1,2.70921E8
+Bentley,Continental GT V8 First Edition,199991.0,1,5.480553364E9
+Ferrari,GTC4Lusso T,206249.5,2,1.90705E9
+Porsche,Macan Turbo,58999.0,2,1.162050948E9
+Dodge,Challenger SRT Demon,155700.0,1,4.07934E8
+Mercedes-Benz,CLA-Class CLA 250,16574.75,8,9.8320725E8
+Toyota,Highlander Limited,28196.25,4,1.139999498E9
+Acura,MDX 3.7L Advance,22500.0,2,6.8475E8
+Kia,Telluride SX,43390.0,8,5.00902356E8
+Land,Rover Range Rover Sport First Edition,143998.0,1,5.08888932E8
+Volvo,850 Turbo,4500.0,1,4.23E8
+BMW,X5 xDrive40e,22998.0,1,2.111170404E9
+Lincoln,MKZ Reserve I,26500.0,1,9.54E8
+Subaru,Impreza WRX,13999.666666666666,3,1.1274098E9
+Audi,A4 3.2 Premium Plus quattro,8700.0,1,1.3311E9
+Nissan,350Z Enthusiast,10308.333333333334,3,8.14E8
+Acura,MDX w/Technology Package,50798.0,2,1.8781817E8
+BMW,550 Gran Turismo i,16800.0,1,1.3329288E9
+MINI,Cooper S Clubman Base,6915.0,2,5.8277835E8
+Chevrolet,Camaro ZL1,92833.33333333333,3,2.19775E8
+Toyota,Sienna XLE Limited,11500.0,1,1.295245E9
+Jeep,Gladiator Sport S,41250.0,2,5.135E8
+Cadillac,CTS-V Base,39166.333333333336,3,1.845E9
+Honda,Insight EX,20499.0,1,1.3160358E9
+Volvo,XC60 Recharge Plug-In Hybrid T8 Inscription,54599.0,1,1.056599848E9
+Porsche,911 Turbo Cabriolet,109500.0,3,1.4061E9
+Lexus,LS 460 Base,19157.4,5,1.553064596E9
+Mercedes-Benz,G 550 4x4 Squared Base,209950.0,2,2.9466669E9
+Mercedes-Benz,C-Class C 300 Luxury,17000.0,1,1.734E9
+Kia,K900 5.0L,23950.0,1,8.738397E8
+Chevrolet,Malibu LTZ,8950.0,1,5.00305E8
+INFINITI,G37 x,13187.5,4,9.0087E8
+Hummer,H2 SUT,29994.0,1,2.6964606E9
+GMC,Yukon Denali,48208.333333333336,6,2.1130291E9
+Toyota,Supra A91 Edition,68000.0,1,4.352E8
+Jeep,Wrangler SE,12249.5,4,8.87429E8
+BMW,335 i,15266.0,6,1.039608017E9
+Cadillac,Escalade ESV Premium Luxury,63250.0,2,3.33675E9
+BMW,430 i,36000.0,2,4.83072E8
+Audi,A6 55 Prestige,52000.0,1,1.1856E9
+Ford,E350 Super Duty Base,8500.0,1,1.343E9
+Mazda,Protege DX,2500.0,1,2.355E8
+Jaguar,XF 3.0 Portfolio,21000.0,1,1.49709E9
+Nissan,Rogue SL,18095.5,4,7.65079272E8
+Audi,Q7 Premium Plus,57298.0,2,6.57240798E8
+Acura,ILX Technology Plus Package,18375.0,2,1.07415E9
+Kia,Forte Koup EX,7000.0,2,7.381385E8
+Chevrolet,Silverado 2500 LTZ H/D Extended Cab,23500.0,1,3.008E9
+Porsche,911 GT3,198812.7142857143,7,7.418675E7
+Nissan,NV Passenger NV3500 HD SV V8,29500.0,1,2.537E9
+Volkswagen,Jetta GLI,15000.0,1,1.492485E9
+Chrysler,Town & Country Touring,8200.0,2,6.33947E8
+Chevrolet,Corvette Stingray,51745.0,2,7.57411E8
+Audi,TT Roadster quattro,9995.0,1,6.926535E8
+Dodge,Charger SRT8,15500.0,1,1.5225805E9
+Ford,Escape SEL,19000.0,1,7.98E8
+BMW,740 iL,7300.0,1,1.7666E9
+Toyota,Camry Hybrid LE,29949.5,2,4.21425952E8
+Mercedes-Benz,CLK-Class 550,10000.0,1,1.38E9
+Bentley,Bentayga Onyx Edition,109000.0,2,2.1275E9
+Honda,Civic Si Base,27500.0,1,1.656875E8
+Volkswagen,Jetta SportWagen SE,9499.0,1,1.016393E9
+Honda,CR-V Touring,32525.5,2,7.42950483E8
+Aston,Martin DBX Base,159500.0,1,3.753035E8
+Ford,Transit Connect XL,19750.0,2,1.435555E9
+Audi,S5 4.2 Premium Plus,9900.0,1,1.5530625E9
+Mercedes-Benz,Maybach S 580 4MATIC,229000.0,1,1.09004E9
+BMW,650 i xDrive,32000.0,1,2.447168E9
+Ford,Fusion Hybrid SE Hybrid,11500.0,1,1.4515875E9
+Ford,Flex Limited,7500.0,1,1.215E9
+Mercedes-Benz,C-Class C 250 Luxury,15000.0,1,1.83E9
+Chevrolet,Impala 2LZ,17899.0,1,1.276413488E9
+BMW,340 i,29148.25,4,1.03586E9
+BMW,X1 sDrive28i,23272.5,2,5.408295E8
+Kia,EV6 Wind,38998.0,1,4.6583111E8
+Mercedes-Benz,GLA 250 Base 4MATIC,28725.0,3,5.48007729E8
+Maserati,Quattroporte Modena Q4,125900.0,1,1.0831177E9
+Buick,Rainier CXL,2800.0,1,4.132492E8
+INFINITI,QX60 Base,18099.285714285714,7,1.296E9
+Volvo,XC90 Recharge Plug-In Hybrid T8 Inscription 7 Passenger,63999.5,2,5.148E8
+Mitsubishi,Outlander SEL,26250.0,2,3.861E8
+Lexus,GX 460 Premium,43091.666666666664,6,1.643917E8
+Nissan,GT-R Black Edition,95000.0,1,1.60075E9
+BMW,M6 Base,48311.857142857145,7,1.07221E9
+Maserati,MC20 MC20,238900.0,1,2.91458E8
+Land,Rover Range Rover Sport Supercharged,24170.0,5,8.0E8
+Tesla,Model S Performance,46000.0,2,9.261E8
+BMW,428 Gran Coupe i xDrive,20999.0,1,1.238941E9
+BMW,325 Ci,5750.0,1,1.0235E9
+Ferrari,California T,124990.0,1,2.4998E9
+Hyundai,Santa Fe SE,19212.333333333332,3,3.735945E8
+Chevrolet,Silverado 1500 1LT,30999.5,2,2.592E9
+Maserati,Quattroporte Base,996194.3333333334,3,9.18E8
+BMW,X6 xDrive35i,24466.666666666668,3,1.1144133E9
+Chevrolet,Cruze LTZ,10000.0,1,8.7E8
+Rolls-Royce,Phantom,599497.5,2,9.359922E8
+Nissan,300ZX Base,7000.0,1,1.176E9
+Subaru,Baja Base,14900.0,1,1.0579E9
+Mercedes-Benz,Sprinter 2500 Standard Roof,71500.0,5,2.6E8
+Subaru,Impreza WRX Sti Special Edition,39900.0,1,3.4713E8
+Porsche,911 Carrera 4S Cabriolet,79995.0,1,2.0398725E9
+Ford,EcoSport SES,12000.0,1,1.272E9
+Kia,Telluride EX,45058.0,2,6.86646012E8
+RAM,ProMaster 2500 High Roof,36796.666666666664,3,3.8243961E8
+Audi,SQ5 3.0T Premium,42000.0,1,9.16944E8
+Porsche,Panamera Edition,37500.0,2,2.33835E9
+Hyundai,Genesis Coupe 2.0T,8900.0,1,5.785E8
+Cadillac,Escalade Base,9999.0,1,1.49985E9
+Dodge,Ram 2500 Laramie Quad Cab,15995.0,2,2.812E9
+Toyota,Supra A91-MT Edition,84900.0,1,1.2735E8
+Toyota,Camry Hybrid XLE,23164.666666666668,3,6.49E8
+Acura,MDX Sport Hybrid 3.0L w/Technology Package,41899.0,1,2.378941422E9
+Dodge,Charger SRT Hellcat Widebody,110000.0,1,5.5E8
+Ford,Excursion Limited Ultimate,15000.0,1,2.055E9
+Ford,F-150 XLT SuperCab,6266.333333333333,3,4.56513E8
+Tesla,Model 3 Standard Range,29900.0,1,6.906003E8
+Mazda,Mazda6 iSport VE,4300.0,1,4.558E8
+Subaru,Forester Premium,27899.0,1,1.175245375E9
+Dodge,Dakota SLT Quad Cab,5000.0,2,1.024E9
+BMW,X3 M40i,44999.0,2,1.457447124E9
+Nissan,370Z NISMO,29000.0,1,8.41E8
+Volvo,XC90 Hybrid T8 Inscription,65000.0,1,2.891655E9
+Cadillac,Escalade ESV Luxury,32200.0,4,2.9986E9
+Jeep,Gladiator Willys,47000.0,1,3.948E8
+Nissan,Xterra Pro-4X,12000.0,1,2.196E9
+Lincoln,MKT Base,10500.0,1,1.4721E9
+Lincoln,MKS EcoBoost,21000.0,1,8.001E8
+Mazda,Mazda6 Touring,23038.333333333332,3,4.921E8
+Chevrolet,Corvette Grand Sport,50650.0,3,5.535E8
+BMW,330 i xDrive,20899.0,5,1.357725E9
+Porsche,Panamera Platinum Edition,86999.0,1,1.1744865E9
+Mercedes-Benz,C-Class C55 AMG Sport,15900.0,1,1.56297E9
+Ford,F-150 XLT,36340.708333333336,24,1.65156792E8
+GMC,Acadia SLT-1,13350.0,4,9.0E8
+BMW,640 i,25499.5,2,1.14223992E9
+Lexus,CT 200h Premium,15361.25,4,1.629005E9
+Acura,ZDX Base,16444.0,2,1.708224E9
+Land,Rover LR4 Lux,14490.0,1,2.05069725E9
+Lexus,RX 350 RX 350 F SPORT Handling,54898.0,2,6.15819924E8
+Dodge,Ram 1500 SRT-10 Quad Cab,19000.0,1,2.63055E9
+Land,Rover Discovery Sport SE,24998.0,1,1.2049036E9
+Land,Rover Defender 110 SE,68000.0,1,2.0196E9
+Jaguar,XF 35t Prestige,18500.0,1,1.8768805E9
+BMW,Z3 3.0i Roadster,10500.0,1,1.091895E9
+Buick,Regal Turbo - Premium 1,6000.0,1,1.14E9
+Aston,Martin DBS Superleggera,232278.0,2,6.0609175E8
+Ford,Explorer XLT,25632.214285714286,14,3.57E8
+Tesla,Model S 70D,29975.0,1,1.861117775E9
+Cadillac,CT4 Luxury,28500.0,1,1.0032E9
+Lincoln,MKX Reserve,18500.0,1,1.628E9
+Dodge,Dart SE,8166.333333333333,3,6.225417E8
+Porsche,911 Carrera GTS,156400.0,2,3.304763E8
+Land,Rover Range Rover HSE,15150.0,3,1.326675E9
+Porsche,911 Turbo,166999.8,5,2.042872E9
+Mercedes-Benz,SLK-Class SLK280 Roadster,11500.0,1,7.728E8
+Volvo,S60 T5 Premier Plus,17900.0,1,6.981E8
+Volvo,XC90 Hybrid T8 R-Design,42000.0,1,1.68E9
+Cadillac,CT5 Premium Luxury,46900.0,1,2.85621E8
+Mazda,CX-9 Grand Touring,20420.5,2,1.2865E9
+Tesla,Model X Base,89499.5,2,1.6745E7
+Ford,Bronco Sport Big Bend,29864.333333333332,3,5.177E8
+Audi,S8 4.0T Plus,53500.0,1,2.90505E9
+BMW,X5 xDrive35i,22358.6,10,8.59018372E8
+Chevrolet,Corvette Stingray w/2LT,85144.27272727272,11,1.368E8
+Ford,Expedition EL King Ranch,14300.0,1,2.2430408E9
+Subaru,Legacy 2.5i Premium,15000.0,1,1.0329E9
+Dodge,Sprinter 2500,14000.0,1,2.656066E9
+Cadillac,CT5-V Blackwing,104900.0,1,2.533335E8
+BMW,X7 xDrive40i,70113.8,10,1.9093895E8
+Hyundai,Equus Signature,16283.333333333334,3,1.26E9
+Mercedes-Benz,AMG C 43 Base,33999.0,1,1.8189465E9
+Tesla,Model Y Long Range,45129.117647058825,17,2.295E7
+Buick,LaCrosse Base,20000.0,1,1.35E9
+Lexus,GS 350 F Sport,45950.0,1,1.13271345E9
+Cadillac,ATS 2.5L,13997.5,2,8.2092014E8
+Porsche,Taycan Base,90349.5,4,5.519931E8
+RAM,1500 Sport,30200.0,2,1.7760325E9
+Audi,RS 4 Base,29995.0,1,2.992571155E9
+Toyota,Tundra TRD Pro,39900.0,1,2.05086E9
+Cadillac,SRX Standard,24995.0,1,1.19976E9
+Volkswagen,Golf GTI 2.0T SE w/Performance Package 4-Door,18999.0,1,1.12569075E9
+Cadillac,XT4 Sport,28900.0,1,1.28605E9
+Mercedes-Benz,AMG C AMG C 63,40000.0,1,2.48E9
+Kia,Optima EX,14539.333333333334,3,1.304002E9
+Ford,Expedition Max King Ranch,58158.5,2,2.35319643E9
+Hyundai,Tucson Hybrid SEL Convenience,44000.0,1,1.49688E8
+GMC,Acadia Denali,34071.666666666664,3,7.95633917E8
+Hyundai,Genesis 5,19000.0,1,2.98262E8
+Chevrolet,Malibu 1LT,10100.0,2,5.838E8
+Subaru,BRZ Limited,25969.25,4,3.4125E8
+Chevrolet,Silverado 2500 WT,35192.0,2,2.67502741E9
+Audi,TTS 2.0T Premium Plus,24499.5,2,1.6031E9
+Genesis,G70 2.0T,42366.333333333336,3,8.643075E7
+Audi,TT 2.0T,22995.0,2,1.3643735E9
+BMW,135 i,13933.333333333334,3,1.12995E9
+Kia,Sportage Plug-In Hybrid X-Line,41000.0,1,5.494E7
+Ford,F-150 SVT Raptor,42500.0,1,3.82449E9
+Toyota,Sequoia Limited,32828.42857142857,7,6.4698E8
+Audi,RS 3 2.5T,78900.0,1,1.4991E8
+Mercedes-Benz,AMG E 53 Base 4MATIC,79750.0,2,1.0595E9
+BMW,528 i xDrive,14150.0,3,1.625225E9
+Porsche,Boxster GTS,67995.0,1,2.74359825E9
+Acura,RSX Base,6700.0,1,1.246468E9
+INFINITI,Q50 3.0T Premium,21500.0,1,1.072248E9
+Land,Rover Discovery HSE,41198.666666666664,3,8.81455932E8
+BMW,M235 i,23696.333333333332,3,1.78743125E9
+Mercedes-Benz,AMG GT AMG GT S,85500.0,1,8.32599E8
+Audi,R8 5.2 V10 performance,187900.0,1,2.3008355E9
+Chrysler,Crossfire Limited,9523.0,2,3.24153962E8
+Audi,S4 3.0T Premium Plus,33024.0,7,5.8751E8
+Tesla,Model 3,36998.0,1,9.84479782E8
+MINI,Clubman Cooper S ALL4,17390.0,1,1.3903305E9
+Porsche,911 Targa 4 GTS,145000.0,1,2.755E9
+Volkswagen,Golf Auto TSI S,13200.0,1,1.4195676E9
+Mazda,Mazda3 s Grand Touring,18500.0,1,1.5725E9
+Hyundai,Genesis Coupe 3.8 R-Spec,15000.0,1,7.809E8
+Toyota,Avalon XLS,5500.0,1,4.984375E8
+Chevrolet,Traverse RS,42250.0,2,2.91E8
+BMW,640 Gran Coupe i,26000.0,1,1.037036E9
+Volkswagen,Eos 2.0T,10000.0,1,5.97E8
+Honda,Accord Hybrid Touring,18500.0,1,1.7834E9
+Jaguar,F-PACE 35t Premium,26000.0,1,1.50956E9
+Mercedes-Benz,Maybach S S 600,71749.5,2,1.445501931E9
+Mercedes-Benz,AMG S 63 Base 4MATIC,88838.5,2,2.1962913E9
+Mercedes-Benz,GLA-Class GLA 250 4MATIC,19000.0,1,1.171825E9
+Lexus,IS-F Base,35575.0,4,1.8592E9
+Audi,R8 5.2 V10 plus,140000.0,1,8.54E9
+Nissan,Versa 1.6 SL,8250.0,1,7.07586E8
+Dodge,Dakota Big Horn/Lone Star,7500.0,1,1.29018E9
+Volkswagen,Routan SE,4250.0,2,6.19075E8
+Lamborghini,Huracan EVO Base,278425.0,2,7.288947E8
+Audi,A8 4.0,59598.0,1,2.145468402E9
+Jaguar,XF S,34000.0,1,1.87E9
+Toyota,Matrix XRS,4199.0,1,6.029764E8
+Ford,Expedition Timberline,71116.66666666667,3,6.8997873E8
+Mercedes-Benz,GLB 250 Base 4MATIC,46479.0,1,5.6657901E7
+Volkswagen,Passat 2.0T SE,20900.0,1,1.03246E9
+Jeep,Wagoneer Series II 4x4,58900.0,1,1.75522E9
+Chevrolet,1500 Cheyenne Extended Cab,6500.0,1,7.8E8
+Hummer,H3 Base,11915.833333333334,6,1.312575E9
+Volvo,XC40 T5 Momentum,26599.0,1,1.503801064E9
+Chevrolet,Caprice Classic Base,18500.0,1,1.11E9
+Mercedes-Benz,E-Class E55 AMG,16500.0,1,2.1615E9
+Mercedes-Benz,AMG CLA 45 Base 4MATIC,59995.0,1,1.0499125E9
+Land,Rover LR3 HSE,9950.0,1,1.53073785E9
+BMW,M240 i,32041.666666666668,3,6.948E8
+Mercedes-Benz,AMG GLE 53 AMG GLE 53,83598.0,1,4.6773081E8
+Toyota,GR86 Base,33499.0,1,4.488866E8
+Porsche,Panamera 4 Edition,32950.0,1,2.2406E9
+Nissan,Rogue Sport S,25500.0,1,6.12E8
+Ford,F-250 Limited,64000.0,1,4.096E9
+Ford,Excursion XLS,18000.0,1,2.934E9
+Toyota,Avalon Touring,17500.0,1,1.56009E9
+Cadillac,ATS 3.6L Luxury,17999.0,2,4.49975E8
+Kia,Forte GT-Line,23466.666666666668,3,3.588E8
+Toyota,Sequoia Platinum,54749.25,4,2.7624025E7
+Mercury,Capri XR2,4200.0,1,5.067048E8
+Buick,Envision Essence,30511.0,4,8.66678E8
+Porsche,Cayenne Diesel,31747.5,2,2.908403E9
+Ford,F-350 King Ranch,51900.0,1,4.7966499E9
+Audi,A5 45 S line Premium Plus,47000.0,1,1.1515E9
+Chrysler,300C SRT8,19995.0,1,8.59785E8
+Ford,Excursion Limited,16124.833333333334,6,1.394192393E9
+Mercedes-Benz,C-Class C 300,25966.0,3,1.116E9
+Jaguar,F-TYPE S,35475.0,2,9.92761E8
+INFINITI,QX60 Luxe,30550.0,2,1.23264E9
+Kia,Sorento SXL,22999.0,2,1.3155E9
+Dodge,Ram 3500 Quad Cab DRW,10000.0,1,1.88E9
+Acura,TLX A-Spec,35390.5,2,6.54545718E8
+Porsche,Boxster S,24750.0,4,1.32312E9
+INFINITI,QX30 Premium,22000.0,1,8.338E8
+Audi,R8 5.2 quattro Spyder,74000.0,1,5.55E9
+Tesla,Model 3 Base,36750.0,1,4.4394E8
+Bentley,Continental GT GT Speed,289991.0,1,5.56492729E8
+Chevrolet,Traverse High Country,39244.0,1,2.207357268E9
+BMW,M2 CS,103500.0,1,1.000845E9
+Jaguar,XE 20d Prestige,29998.0,1,1.029591356E9
+Audi,S6 4.0T Prestige,27450.0,1,1.479555E9
+Nissan,GT-R Premium,93221.88888888889,9,1.0842E9
+Toyota,Highlander SE,30926.5,2,1.707543771E9
+BMW,430 i xDrive,43000.0,1,7.267E8
+Audi,S8 4.0T quattro,107900.0,1,4.809103E8
+Mercedes-Benz,AMG GT C,128950.0,2,8.5074E8
+Ferrari,488 Spider Base,317450.0,2,2.8806995E9
+Tesla,Model S 75D,31300.0,1,3.200738E9
+Chevrolet,S-10 LS,4500.0,1,6.00795E8
+Mazda,Mazda3 i Touring,8750.0,2,8.694E8
+Mitsubishi,Lancer Evolution IX,57000.0,1,4.389E9
+BMW,330 i,28425.0,4,9.62E8
+Ford,F-250 Base,9000.0,1,8.352E8
+Subaru,Outback 2.5 i Special Edition,6500.0,1,1.182155E9
+Subaru,Outback Touring XT,34000.0,1,1.139E9
+Lamborghini,Huracan Tecnica Coupe,359991.0,2,9.1797705E7
+Ford,Expedition Platinum,50184.6,5,1.577576E9
+BMW,X5 xDrive40i,49016.0,6,2.8303024E8
+Ford,F-150 Lariat,41739.846153846156,13,5.62233E8
+Porsche,718 Spyder Base,131950.0,2,4.4166E8
+Ford,F-150 Limited,45950.0,1,1.9633516E9
+Hyundai,Santa Fe Sport 2.0L Turbo Ultimate,20000.0,1,1.43338E9
+Nissan,Altima 2.5 SL,8999.5,2,8.23813455E8
+Jeep,Commander Base,6500.0,1,1.38125E9
+Scion,FR-S Monogram,8900.0,1,1.4508691E9
+BMW,X5 sDrive35i,28900.0,1,1.134325E9
+Audi,Q7 3.0T Premium,25999.0,1,2.807892E9
+Honda,Odyssey EX-L,22825.0,2,6.9771075E8
+Subaru,Crosstrek Premium,28000.0,1,2.8E8
+Porsche,Cayenne Base,42273.8,5,1.997906575E9
+Cadillac,Escalade ESV Sport,190748.75,4,4.725E8
+Chevrolet,Suburban LT,33988.22222222222,9,2.302158564E9
+Acura,TLX Base,16500.0,1,7.425E8
+Chevrolet,1500 Cheyenne,6000.0,1,1.022658E9
+Mercedes-Benz,E-Class E500,5800.0,1,8.90068E8
+Nissan,Quest SL,7500.0,1,1.3875E9
+Subaru,Forester 2.5i Limited,16000.0,1,1.44E9
+Toyota,C-HR LE,25834.5,2,3.1629364E8
+Audi,RS 7 4.0T quattro,128900.0,1,4.070662E8
+Scion,tC Base,7100.0,1,1.26096E9
+RAM,2500 Tradesman,45503.0,5,6.24E7
+Ford,Expedition EL XLT,16365.666666666666,3,1.7593045E9
+Mercedes-Benz,C-Class 4MATIC Sedan,43900.0,1,4.219668E8
+BMW,M5 Competition,71950.0,1,2.54703E9
+Aston,Martin Vantage Base,156900.0,1,1.605087E8
+Mercedes-Benz,C-Class C 300 4MATIC Luxury,15990.0,1,1.527045E9
+Porsche,Taycan,90998.0,1,1.92551768E8
+Porsche,Panamera 2,24800.0,3,1.023E9
+Toyota,Tundra SR5,38039.71428571428,7,1.2150337E9
+RAM,1500 Longhorn,53341.5,2,2.8147308E8
+BMW,M8 Base,84900.0,1,2.166648E9
+BMW,i3 Base w/Range Extender,12149.5,2,3.782784E8
+Volkswagen,Beetle 2.0T S,23499.5,2,8.1282E8
+Porsche,911 Carrera 4 Cabriolet,32000.0,1,2.8032E9
+Buick,Enclave Leather,18516.333333333332,3,1.30097435E9
+Cadillac,Escalade Premium Luxury,82199.75,4,6.18E7
+Chevrolet,Avalanche 1500 LTZ,17224.5,2,1.239470876E9
+Dodge,Avenger SE,6499.0,1,8.10457795E8
+BMW,X1 xDrive 28i,19500.0,2,1.114958E9
+Subaru,Outback Limited XT,30427.0,1,1.121052388E9
+Kia,Sorento SX Prestige,40200.0,1,4.4622E8
+BMW,M4 Base,57909.066666666666,15,4.608E8
+GMC,Suburban 2500,25000.0,1,2.375E9
+BMW,M6 Gran Coupe Base,62950.0,2,1.39195E9
+Dodge,Dakota SLT,5700.0,1,8.0826E8
+Maserati,MC20 Base,279000.0,1,3.03273E8
+Subaru,Impreza 2.0i Premium,14583.0,3,1.119888E9
+Jaguar,E-PACE S,29000.0,1,1.276E9
+Volkswagen,GTI Base,9850.0,1,9.436103E8
+Mercedes-Benz,S-Class S 550,34500.0,1,2.6944845E9
+Chevrolet,Blazer 1LT,26990.0,1,1.00297539E9
+Porsche,911 GT2 RS,417500.0,1,1.8908575E9
+INFINITI,Q40 Base,11500.0,1,1.647375E9
+Ford,Edge Sport,15497.0,2,1.451868E9
+Rivian,R1S Launch Edition,92124.75,4,2.76575E7
+Genesis,GV80 2.5T,55921.5,2,4.10326989E8
+Audi,Q3 2.0T Premium Plus,13500.0,1,2.097657E9
+Cadillac,CTS 3.6L Premium,19500.0,1,1.3455195E9
+Ford,Escape PHEV SE,32850.0,1,6.205365E7
+Ford,Mustang Mach-E Premium,43166.333333333336,3,2.465E8
+Volkswagen,Golf GTI 2.0T Autobahn 4-Door,15550.0,1,1.32773675E9
+Audi,S5 3.0T Prestige,46200.0,4,7.854714E8
+Hyundai,Santa Fe GLS,13000.0,1,1.254188E9
+GMC,Savana 2500 Work Van,35500.0,2,2.09418E9
+Mazda,MazdaSpeed Miata MX-5 Base,17599.0,1,5.87137838E8
+Chevrolet,Monte Carlo SS,9733.333333333334,3,3.478E8
+Porsche,911 Carrera C2S,54150.0,2,1.80975E9
+Land,Rover Discovery Sport HSE,21590.0,1,1.05970197E9
+Toyota,Avalon XLE,18200.0,1,1.638E9
+Jeep,Compass High Altitude,16500.0,1,7.425E8
+BMW,M760 M760i xDrive,80998.0,1,1.89778314E9
+Ford,Mustang V6 Premium,16000.0,1,1.0E9
+INFINITI,Q60 3.0T Premium,17500.0,1,1.87915E9
+Kia,Rio S,15700.0,1,1.0626702E9
+Lexus,ES 250 Base,38998.0,2,7.0276486E8
+Land,Rover Range Rover SWB,70000.0,1,2.03E9
+Ford,Mustang Mach-E Select,43248.5,2,4.3379154E7
+Maserati,GranTurismo Base,33699.75,4,4.5859E8
+Chevrolet,Colorado Z71,35763.0,2,7.39906783E8
+Kia,Optima Hybrid EX,8950.0,2,9.44946E8
+Lamborghini,Gallardo LP560-4,109499.0,1,4.928987986E9
+Mitsubishi,Lancer Evolution MR,32499.5,2,2.5515E9
+Lincoln,Aviator Luxury,2000.0,1,2.8E8
+Nissan,370Z Base,16700.0,2,1.2702987E9
+Bentley,Bentayga V8,139495.0,2,2.51222561E9
+Ford,Mustang EcoBoost Premium,25057.8,5,8.5E8
+Lexus,SC 430 Base,15499.5,2,1.4319105E9
+Maserati,Ghibli S GranLusso,52900.0,1,6.410422E8
+Lexus,RX 450h F Sport,44950.0,1,1.96301145E9
+Ford,F-350 Platinum,78415.0,3,2.3790375E9
+BMW,650 Gran Coupe i,24000.0,1,2.208E9
+Chevrolet,Trax LS,19000.0,1,3.952E8
+Chevrolet,Corvette Stingray w/1LT,80549.66666666667,6,2.58563727E8
+Volvo,S80 3.2,5800.0,1,5.2229E8
+BMW,M340 i xDrive,53449.5,2,5.121E8
+Nissan,Leaf SV PLUS,29045.5,2,1.44391716E8
+MINI,Cooper Base,7399.0,5,4.2845E8
+Volvo,XC60 T5 R-Design,30000.0,1,1.305E9
+Cadillac,Escalade ESV Premium Luxury Platinum,95000.0,1,2.9925E9
+Audi,A8 L 4.0T,22000.0,1,3.138652E9
+Subaru,Ascent Limited 7-Passenger,38500.0,1,4.8895E8
+Mercedes-Benz,E-Class E 550 4MATIC,28500.0,1,1.7955E9
+BMW,540 i,24500.0,1,2.41325E9
+Mazda,Mazda6 Signature,33687.0,1,3.95384319E8
+Audi,A7 Premium Plus,49998.0,1,1.267999278E9
+Toyota,Land Cruiser,65998.0,1,3.323725278E9
+BMW,440 i xDrive,32000.0,1,2.352E9
+Mercedes-Benz,GLC 300 Base 4MATIC,26762.5,2,1.13995375E9
+Mercedes-Benz,Sprinter 2500,27197.8,5,2.40588E9
+Land,Rover Range Rover 5.0L Supercharged Autobiography,49900.0,1,2.7944E9
+BMW,323 Ci,2500.0,1,4.4425E8
+Audi,S4 Base,10995.0,1,1.022535E9
+Audi,Q5 S line Premium,41131.333333333336,3,3.49005414E8
+Mazda,CX-30 Select,23942.0,2,5.9051519E8
+Dodge,Challenger SRT 392,38000.0,1,1.4326E9
+Mazda,CX-5 Touring,18055.5,2,1.3298E9
+Volkswagen,CC 2.0T Sport,13000.0,1,9.94435E8
+Toyota,4Runner 4WD,8000.0,1,2.136E9
+Cadillac,XT5 Premium Luxury,28500.0,1,1.89525E9
+Bentley,Continental GT W12,155997.0,3,1.90892E9
+Audi,A8 L 55,47500.0,4,1.1208E9
+Mercedes-Benz,C-Class C 300 4MATIC,31677.11111111111,9,3.69060417E8
+Lamborghini,Aventador SVJ Base,699974.5,2,4.503843071E9
+GMC,Yukon XL AT4,82000.0,1,8.1836E8
+Hyundai,IONIQ 5 SE,42000.0,1,7.77E8
+Honda,Odyssey Elite,32471.0,1,2.662622E9
+Chevrolet,Colorado LT Crew Cab,14500.0,1,2.0155E9
+GMC,Yukon XL 1500 SLT,24950.0,1,3.61775E9
+Chrysler,300M Base,6000.0,1,2.7E8
+Tesla,Model 3 Performance,44624.5,4,6.14713E8
+Ford,Transit-350 XLT,52999.8,5,1.56998E9
+Bentley,Bentayga S,239995.0,1,6.23987E8
+Volkswagen,Arteon 2.0T SE,29798.0,1,4.05640174E8
+BMW,430 430i,47998.0,1,3.72368484E8
+RAM,1500 SLT,29666.333333333332,3,1.349955E9
+Hyundai,Accent SEL,19500.0,1,9.945E7
+Acura,MDX Sport,7700.0,1,1.4126035E9
+Audi,A5 Sportback S line Premium Plus,37499.0,1,1.312465E9
+Tesla,Model X P100D,45999.0,1,4.615815654E9
+Mercedes-Benz,AMG GLE 63 S Coupe 4MATIC,61000.0,1,4.3615E9
+Lexus,RX 300 4WD,3500.0,1,8.717905E8
+Toyota,FJ Cruiser Base,26781.0,7,1.94722E9
+Chevrolet,Express 1500 Cargo,7999.0,1,1.215848E9
+Nissan,Altima 2.5 SV,23599.0,1,5.26139705E8
+Audi,A6 55 Premium Plus,59900.0,1,3.942019E8
+BMW,M8 Gran Coupe Competition,108650.0,2,3.4075E8
+INFINITI,Q50 3.0t Signature Edition,23000.0,1,1.541E9
+Mercedes-Benz,R-Class R 350 4MATIC,8995.0,1,1.0794E9
+BMW,320 i xDrive,7500.0,1,1.3875E9
+Porsche,911 Carrera 4S,79528.0,9,2.16E9
+Kia,Optima Hybrid LX,9200.0,1,9.486212E8
+Audi,Q3 S line Premium Plus,39998.0,1,6.95045246E8
+Jeep,Wrangler Sahara,22585.285714285714,7,8.54482524E8
+Chevrolet,Suburban Premier,43999.88888888889,9,2.352E9
+Jaguar,F-TYPE S British Design Edition,45999.0,1,1.57086585E9
+Ford,F-350 Lariat,56366.666666666664,3,2.076992E9
+Chrysler,200 Limited,11234.0,2,1.006E9
+Ford,Bronco Badlands,51000.0,1,1.654287E9
+Mazda,CX-9 Touring,16770.0,1,2.13198687E9
+Lincoln,Mark LT Base,12999.0,1,1.1374125E9
+Dodge,Charger SE,18650.0,1,1.1796125E9
+GMC,Sierra 2500 Denali,64125.0,4,1.665045E8
+INFINITI,G37 Journey,21990.0,1,7.32267E8
+Ford,Utility Police Interceptor Base,10633.333333333334,3,5.253E8
+Jeep,New Compass Trailhawk,15900.0,1,1.8921E9
+Hyundai,Tucson SE,13695.0,2,1.3284E8
+Lincoln,MKZ Reserve,23125.0,2,1.0278125E9
+Nissan,Murano SL,11856.25,4,4.95725E8
+Lexus,LS 430 Base,10296.333333333334,3,6.71958E8
+GMC,Sierra 1500 SL Crew Cab,20000.0,1,2.74E9
+Ford,Focus ST Base,14645.0,2,4.11736E8
+Volvo,C70 T5,7899.5,2,6.28239E8
+Toyota,Prius v Three,18000.0,1,1.5534E9
+Audi,SQ7 4.0T,74900.0,1,2.1666323E9
+Mercedes-Benz,Sprinter 4500 High Roof,45900.0,1,7.717167E8
+Acura,TL Technology,19749.5,2,9.6E8
+Mercedes-Benz,CLS-Class CLS 400 4MATIC,29950.0,1,1.86543575E9
+Lincoln,MKX Black Label,26500.0,1,1.8399215E9
+Lucid,Air Pure,86900.0,1,1.1297E8
+BMW,X1 xDrive28i,31250.0,4,5.369E8
+Audi,TT 3.2 Cabriolet quattro,10500.0,1,2.1735E9
+BMW,X7 ALPINA XB7,132998.0,1,6.00352972E8
+Toyota,Highlander Hybrid XLE,36000.0,1,2.4966E9
+Lexus,RX 330 Base,9450.0,2,1.1999784E9
+Acura,MDX w/Advance Package,58998.0,1,2.18764584E8
+GMC,Sierra 1500 Limited Elevation,49900.0,1,1.24251E9
+Volkswagen,Golf GTI 2.0T Autobahn,41500.0,1,2.656E8
+BMW,X3 M AWD,54500.0,1,1.71675E9
+Toyota,4Runner Venture,48500.0,1,1.3095E9
+Toyota,GR Corolla Circuit Edition,49950.0,1,4.75524E7
+Volvo,XC90 T6 Momentum,26831.0,4,1.891E9
+Mercedes-Benz,S-Class S 550 4MATIC,44099.75,4,8.3125E8
+BMW,230 i,29000.0,1,8.7E8
+Jeep,Wrangler Rubicon Hard Rock,32798.0,1,2.226393836E9
+Honda,Prelude Type SH,18000.0,1,2.25E9
+Maybach,Type 57 Base,64250.0,1,2.2008195E9
+Porsche,Cayenne Turbo GT,209995.0,1,3.7085117E8
+Dodge,Ram Van 1500,8000.0,1,5.6E8
+Porsche,Taycan 4S,108000.0,1,8.532E8
+Volkswagen,Golf SportWagen TSI S 4-Door,13800.0,1,1.763226E9
+BMW,440 Gran Coupe i,31750.0,1,1.247775E9
+Jeep,Wrangler Unlimited Sahara,33102.444444444445,9,1.043169E9
+GMC,Sierra 1500 SLE Crew Cab,10150.0,2,7.6444E8
+Mercedes-Benz,AMG G 63 4MATIC,244896.0,1,4.89792E8
+Chevrolet,Suburban 1500 LT,15840.0,5,1.1718E9
+Land,Rover Defender SE,80166.66666666667,3,7.5789E8
+BMW,M2 Competition,62500.0,2,3.5E7
+Hyundai,Accent GL,2900.0,1,2.407E8
+Cadillac,DTS Luxury,3499.0,1,4.5487E8
+Lexus,LX 470 Base,25000.0,1,2.05E9
+Mercedes-Benz,AMG E 53 4MATIC,69900.0,1,5.854125E8
+Hyundai,Tucson Limited,12529.666666666666,3,5.7365E8
+McLaren,570S Spider,178933.33333333334,3,1.0646482E9
+Audi,e-tron Prestige,38996.333333333336,3,3.07078126E8
+Volkswagen,Touareg VR6 Lux,12449.0,1,1.5337168E9
+Audi,Q8 3.0T Prestige,49218.0,2,1.91554496E9
+Lamborghini,Gallardo SE,129000.0,1,2.5155E9
+BMW,428 i,16700.0,1,1.1857E9
+Toyota,Highlander LE Plus,14000.0,1,2.772E9
+Jeep,Compass Sport,4750.0,2,4.95E8
+Nissan,Frontier SE Crew Cab,8500.0,1,1.139E9
+Cadillac,CTS Performance,17200.0,2,7.52242E8
+Chevrolet,Monte Carlo Supercharged SS,6500.0,1,9.672E8
+Chevrolet,Avalanche LTZ,27499.0,1,2.694902E9
+Mercedes-Benz,AMG GLC 63 Base 4MATIC,46900.0,1,3.3750178E9
+Audi,S3 2.0T Tech Premium Plus,42800.0,1,7.0192E8
+Chevrolet,Tahoe LT,34435.375,8,1.849266E8
+Ford,Shelby GT350R Base,77999.0,1,1.4429815E9
+Toyota,Tundra 1794,47500.0,1,3.2015E9
+BMW,X6 M50i,74999.0,1,1.6874775E9
+Acura,RDX,18998.0,1,2.512523496E9
+Jeep,Gladiator Mojave,64000.0,1,1.568E9
+Mercedes-Benz,GLE 350 Base,49998.0,1,1.314597414E9
+Chevrolet,Silverado 2500 LTZ,32500.0,1,5.6095E9
+Audi,A5 2.0T Premium Plus,24198.75,4,8.33825865E8
+Honda,S2000 CR,45250.0,2,2.3462055E9
+Audi,A6 2.0T Premium Plus,20496.666666666668,3,1.236261E9
+Volvo,C30 T5 Premier Plus,13900.0,1,1.0147E9
+Honda,Pilot EX,10500.0,1,1.932E9
+Porsche,Panamera 4S,53300.0,2,1.7944498E9
+Kia,EV6 GT-Line,46250.0,2,2.2895E8
+Ferrari,812 Superfast Base,469900.0,1,7.400925E8
+Jaguar,XK8 Base,11911.25,4,2.4555E8
+Chevrolet,Silverado 1500 W/T,4000.0,1,4.44912E8
+Lexus,NX 300 Base,34249.5,2,2.32157551E8
+Jeep,Wrangler Sahara Altitude,62500.0,1,9.76875E7
+Toyota,4Runner TRD Sport,46000.0,1,5.244E8
+Audi,RS 5 2.9T,69225.0,2,7.55798E8
+Land,Rover Discovery Sport SE R-Dynamic,36998.0,2,7.53330146E8
+Audi,Q7 3.0T Premium Plus,12745.0,2,9.84777365E8
+Kia,Stinger GT2,34500.0,2,2.0805E9
+BMW,X6 M Base,80294.44444444444,9,1.0143E9
+BMW,330 330i xDrive,31698.0,1,6.17255154E8
+Audi,A6 55 Premium,41200.0,2,4.6036E8
+Subaru,Outback 3.6R Touring,20500.0,1,2.06394E9
+Chevrolet,Corvette Z06,57021.28571428572,7,5.236875E8
+Ford,Bronco Outer Banks Advanced,61499.5,2,1.938E8
+Acura,MDX Touring,4000.0,1,6.6E8
+Ford,Ranger Lariat,35690.0,1,1.61186747E9
+Mercedes-Benz,GLE 350 GLE 350,61998.0,1,1.16649237E9
+Cadillac,Escalade Premium,24766.333333333332,3,2.028E9
+Jeep,Gladiator Overland,46917.625,8,2.0E8
+Audi,A7 55 Premium Plus,63000.0,1,9.45E8
+Land,Rover Discovery Sport S R-Dynamic,44998.0,1,1.060512864E9
+Land,Rover Range Rover HSE SWB,69165.0,3,1.208E9
+Mercedes-Benz,E-Class E 300 4MATIC,30800.0,3,1.05165E9
+Land,Rover Range Rover Evoque Base,14500.0,1,1.33516E9
+Pontiac,Firebird Trans Am,12887.5,4,7.50204E8
+BMW,228 Gran Coupe i xDrive,28898.5,2,3.21099948E8
+INFINITI,QX56 Base,13150.0,4,1.390635E9
+Acura,RDX PMC Edition,40598.0,1,1.804865286E9
+Volvo,XC90 3.2,8999.5,2,1.01545E9
+Kia,Sportage X-Pro,36998.0,1,1.6982082E7
+Land,Rover Range Rover Velar SVAutobiography Dynamic Edition,72497.5,2,2.628E9
+Ford,F-150 XL,30650.666666666668,6,5.8695E8
+Acura,TL 3.2,7450.0,2,9.765504E8
+Ford,Explorer Sport Trac XLT,3850.0,1,8.778E8
+Hyundai,Elantra GLS,6250.0,1,6.6875E8
+RAM,1500 Laramie,46542.5,18,1.79831554E8
+Volkswagen,Atlas Cross Sport 3.6L V6 SEL Premium,38322.0,1,9.42567912E8
+Ford,Mustang SVT Cobra,30000.0,2,5.7155E8
+Acura,TL Type S,13749.5,2,1.403E9
+Dodge,Challenger SRT8,18333.333333333332,3,1.54E9
+Lotus,Elise Base,44000.0,1,1.111E9
+Subaru,Crosstrek 2.0i Premium,21495.0,1,1.074986445E9
+Nissan,Maxima SL,6700.0,1,6.8072E8
+Nissan,Altima 2.5 S,11833.0,3,5.47911E8
+Mercedes-Benz,EQS 450 4MATIC,105500.0,1,7.79434E8
+Ford,Expedition King Ranch,48999.0,1,2.8762413E9
+Lexus,IS 350 F Sport,45562.0,2,9.48182004E8
+Ford,F-250 Platinum,70599.5,4,3.8925E8
+Audi,TT 2.0T Premium,17000.0,1,1.097333E9
+Toyota,Highlander Limited Platinum,23500.0,1,3.17579E9
+Maserati,Ghibli Base,17999.0,1,1.313927E9
+Acura,TLX Tech,41998.0,1,8.8951764E7
+Cadillac,STS V6,4999.0,1,4.79904E8
+Cadillac,DeVille Base,5626.666666666667,3,2.691E8
+FIAT,500X Trekking Plus,15999.0,1,7.759515E8
+Hyundai,Kona N Base,34599.0,1,2.2627746E7
+Honda,Civic LX,12274.75,4,4.80795E8
+Lexus,RX 300 Base,6348.0,1,7.68108E8
+Jaguar,F-PACE 25t Premium,34500.0,1,1.0005E9
+Mercedes-Benz,E-Class 400E,15300.0,1,1.6368399E9
+Dodge,Charger R/T Scat Pack,44888.0,1,8.52872E8
+INFINITI,Q60 3.0t Red Sport 400,43000.0,2,1.782E8
+Nissan,Kicks S,19299.0,2,3.05293623E8
+Volkswagen,CC Sport,9000.0,1,1.187874E9
+GMC,Canyon Denali,36750.0,1,9.6795825E8
+INFINITI,Q50 Hybrid Premium,19977.0,1,1.777493529E9
+Hyundai,Santa Fe SEL Plus 2.4,28000.0,1,1.386E9
+Toyota,Camry SE,7700.0,1,1.3683054E9
+Mazda,CX-9 Signature,29875.0,2,6.28875E8
+Chevrolet,Tahoe Base,19500.0,1,4.4655E9
+Jaguar,F-TYPE,47998.0,1,7.63312194E8
+Land,Rover LR4 HSE,25495.0,2,2.393202E9
+Genesis,G90 5.0 Ultimate,30550.0,2,8.736E8
+Subaru,Impreza WRX Sti,19500.0,1,1.833E9
+Audi,A7 55 Premium,50000.0,1,1.355E9
+Toyota,Tacoma Double Cab,33580.0,1,8.389963E8
+GMC,Yukon Denali Ultimate,93999.0,1,9.37922022E8
+Honda,S2000 Base,27000.0,4,9.415E8
+Maserati,Coupe Cambiocorsa,17000.0,1,9.19394E8
+Nissan,240SX Base,15500.0,1,2.487595E9
+BMW,M4 Competition,86750.0,2,3.29825E8
+Ford,Ranger Edge SuperCab,8500.0,1,9.35E8
+Mercedes-Benz,GLS 450 Base 4MATIC,46028.142857142855,7,1.06524E9
+Cadillac,XTS Luxury,17992.0,7,9.7392435E8
+Lexus,LS 460 Crafted Line,32900.0,2,2.52555E9
+Cadillac,CTS Premium,12000.0,1,1.26E9
+Porsche,911 Carrera Turbo,55000.0,1,8.525E9
+Audi,Q5 2.0T Premium,12000.0,1,1.428E9
+Audi,A4 2.0T Premium Plus,16600.0,2,1.2556E9
+Volvo,S80 T6,10500.0,1,1.0249575E9
+Subaru,Impreza Premium,24998.0,1,2.60454162E8
+Volkswagen,Atlas 3.6L SEL Premium,39127.0,1,1.420740497E9
+Kia,Telluride EX X-Line,48000.0,1,4.992E8
+Mercedes-Benz,CLS-Class CLS 63 AMG S-Model 4MATIC,37500.0,1,2.41875E9
+Ford,Taurus X Limited,3900.0,1,5.809011E8
+Mazda,MX-5 Miata Grand Touring,16699.666666666668,3,6.345864E8
+Chevrolet,Camaro 1LT,22199.833333333332,6,2.51454489E8
+Lamborghini,Huracan LP580-2S,234900.0,1,4.0344075E9
+Tesla,Model S 85D,28000.0,1,1.894116E9
+Mercedes-Benz,C-Class C 250 Sport,14500.0,1,1.023874E9
+Chevrolet,Trailblazer SS,26633.333333333332,3,1.4171694E9
+Ford,Transit-250 Base,32750.0,2,1.7955E9
+Chevrolet,Tahoe High Country,67100.0,1,3.5563E9
+Acura,MDX 3.5L w/Advance & Entertainment Pkgs,24840.0,1,1.98431856E9
+Subaru,Outback 3.0 R VDC Limited,7100.0,1,7.597E8
+Nissan,Titan SL,32612.0,1,3.130523716E9
+Jaguar,XF Luxury,7000.0,1,6.40437E8
+Toyota,Sienna XSE 25th Anniversary,59500.0,1,2.975E7
+Audi,S3 2.0T Premium Plus,26250.0,2,1.679666E9
+Lincoln,Aviator Reserve AWD,54849.0,2,1.128152E9
+Audi,A7 Premium,26190.0,2,1.600716E9
+Lincoln,MKZ Hybrid Base,15500.0,1,1.217804E9
+Mercedes-Benz,EQS 450+ Base,65989.5,2,1.014534002E9
+Land,Rover Range Rover Velar P250 SE R-Dynamic,36450.0,2,2.204E9
+Dodge,Challenger R/T,23350.0,5,1.13886E9
+Jeep,Gladiator Freedom,39998.0,1,1.22513874E9
+Jaguar,XJ Vanden Plas,11990.0,1,1.05377712E9
+BMW,135 is,29000.0,1,8.526E8
+Dodge,Viper SRT-10,65499.0,1,7.073892E8
+Chevrolet,Silverado 1500 Custom Trail Boss,43147.0,1,2.215641597E9
+Porsche,Cayenne Platinum Edition,37270.0,2,2.1847293E9
+Tesla,Model Y Performance,48169.8,10,3.0E7
+Ford,Explorer sport,28590.0,1,2.57501553E9
+Pontiac,Solstice GXP,16030.0,5,1.482E8
+Mercedes-Benz,SL-Class SL63 AMG Roadster,55275.0,2,2.061009E9
+Jeep,Compass Latitude,18322.5,2,4.496625E8
+Ford,F-350 XLT,35000.0,1,1.085E9
+Subaru,Outback 2.5i Premium,15624.5,2,1.443673E9
+Volvo,XC90 T6 Inscription,43500.0,2,1.125E9
+Land,Rover Range Rover Sport 5.0L Supercharged Dynamic,41250.0,2,1.98947E9
+Buick,Envision Preferred,30147.5,2,6.6936268E8
+Acura,TSX Technology,5500.0,1,1.0333565E9
+Audi,A4 2.0T Tech Premium,27900.0,1,7.681428E8
+Mercedes-Benz,SLK-Class SLK 250,23500.0,1,1.1515E9
+GMC,Sierra 1500 SLT,41392.142857142855,7,6.664615E8
+Audi,SQ5 3.0T Prestige,46750.0,2,1.25E9
+Ford,F-250 Lariat,48845.78571428572,14,3.46196E8
+Mercedes-Benz,G-Class G 550 4MATIC,111911.0,9,1.9562595E9
+Ford,Ranger Sport SuperCab,6999.0,1,1.1632338E9
+Ford,Escape XLT,3750.0,2,3.999E8
+Buick,Roadmaster Estate,16999.0,1,2.0313805E9
+Acura,RDX w/Advance Package,39798.0,1,1.443354066E9
+Chevrolet,Suburban LTZ,30373.5,2,3.40989E9
+Lamborghini,Urus Base,244175.0,4,2.65905E9
+Subaru,Legacy 2.5 i Premium,7600.0,1,1.3528E9
+Volkswagen,Jetta 1.4T SE,14497.5,2,9.75695E8
+Jeep,Wrangler Rubicon,27500.0,3,3.22E8
+Ford,Fusion Hybrid SE,13670.0,2,1.25159814E9
+Audi,S5 3.0T Premium,51800.0,1,9.3758E8
+Chevrolet,Camaro Base,8950.0,2,4.8582E8
+Mercedes-Benz,A-Class A 220 4MATIC,29633.333333333332,3,8.455585E8
+Audi,A5 2.0T Prestige,33000.0,1,1.18305E9
+Toyota,Tundra Platinum,59750.0,2,6.028E8
+Toyota,Camry XSE,38298.0,1,7.41487578E8
+Volkswagen,Passat 2.5 SE,9750.0,1,1.5587325E9
+Dodge,Ram 1500 Laramie Mega Cab,10900.0,1,3.2719947E9
+Cadillac,SRX Luxury Collection,15665.666666666666,3,1.0061625E9
+BMW,X2 xDrive28i,27449.5,2,9.89967E8
+Mitsubishi,Lancer GTS,5100.0,1,9.484113E8
+Acura,RDX w/A-Spec Package,48998.0,1,1.93983082E8
+Lamborghini,Aventador LP750-4 Superveloce,449991.0,1,4.794204114E9
+Audi,allroad 2.0T Prestige,17900.0,1,1.8697803E9
+Ford,Bronco Big Bend,44000.0,1,7.48E8
+Chevrolet,Suburban RST,65000.0,2,1.4766E9
+Mercedes-Benz,C-Class C300 4MATIC,41898.0,2,4.33306778E8
+Toyota,Highlander XLE,35054.9,10,1.86354E8
+Polestar,2 Launch Edition,35999.0,1,4.38179828E8
+BMW,Z4 3.0i Roadster,11500.0,1,5.34842E8
+Aston,Martin V8 Vantage Base,47663.333333333336,3,9.75975E8
+Jeep,Wrangler X,14362.25,4,1.099956E9
+Ford,F-150 Platinum,44658.0,5,9.7825395E8
+Ford,Maverick Lariat,39500.0,1,5.4115E8
+RAM,1500 Tradesman/Express,24502.333333333332,3,6.64789583E8
+BMW,750 iL,11800.0,1,6.350052E8
+Hyundai,Palisade Limited,37700.0,1,1.7272255E9
+Ford,E250 Cargo,17777.0,1,1.555505277E9
+Dodge,Durango SLT,3200.0,1,4.576E8
+Audi,A6 2.0T Sport,23750.0,1,1.1791875E9
+Porsche,Cayman Base,35142.42857142857,7,5.31970569E8
+Land,Rover Range Rover Evoque Pure,20150.0,2,1.9152E9
+Audi,SQ5 3.0T Premium Plus,36649.75,4,4.494913E8
+Subaru,Forester 2.5 XT,9999.0,1,1.219878E9
+Toyota,Camry LE,5675.0,2,3.013885E8
+MINI,Countryman Cooper S ALL4,17679.8,5,3.57493E8
+Lexus,RX 450h Base,26181.666666666668,6,8.23316E8
+Ford,Escape SE,14975.0,2,8.8330125E8
+Jeep,Wagoneer Series III,69023.5,2,6.22025838E8
+Tesla,Model X Performance,67484.0,2,1.761123415E9
+Honda,Pilot EX-L,24508.8,5,1.02964147E9
+Cadillac,DTS Luxury II,10500.0,1,9.886275E8
+BMW,750 Li xDrive,16000.0,1,1.648E9
+Saab,9-3 SE,7500.0,1,5.79E8
+Ford,Mustang GT,20690.454545454544,11,3.52E8
+Chevrolet,Silverado 3500 High Country,54000.0,1,4.185E9
+Lincoln,Town Car Signature,5115.0,2,6.20278E8
+Ford,Bronco Base,49000.0,1,3.038E8
+INFINITI,G35 Base,11723.75,4,9.75E8
+GMC,Terrain Denali,18400.0,1,2.6496E9
+Jaguar,XK R,36949.0,1,1.418213467E9
+Tesla,Model X Plaid,95999.0,1,1.439985E9
+Kia,Forte LX,14699.0,1,6.97702734E8
+Maserati,Quattroporte S Q4 GranLusso,41900.0,1,2.40925E9
+Chevrolet,Silverado 1500 RST,54093.75,4,2.9830754E8
+Land,Rover Range Rover 3.0L V6 Supercharged HSE,58979.75,4,2.06766435E9
+Buick,LaCrosse Leather,13597.5,2,3.05168605E8
+BMW,Z4 3.0si,18200.0,1,1.0784774E9
+Cadillac,ATS 2.0L Turbo Luxury,16500.0,1,1.3695E9
+Mazda,CX-50 2.5 Turbo Premium Package,36900.0,1,5.9778E8
+BMW,740e xDrive iPerformance,43500.0,1,1.444809E9
+Nissan,350Z NISMO,28000.0,1,2.142E9
+Mercedes-Benz,GLE 350 Base 4MATIC,54448.8,5,8.21278158E8
+Dodge,Ram 1500 Quad Cab,6500.0,1,1.1635E9
+BMW,740 i,27839.8,5,1.434615E9
+FIAT,500e Battery Electric,14999.0,1,5.07146188E8
+Mercedes-Benz,GL-Class GL 450 4MATIC,18564.333333333332,6,9.219896E8
+Hyundai,Santa Cruz 2.5T Limited,34580.0,1,7.8942682E8
+GMC,Terrain SLT-1,10900.0,2,1.422249E8
+Kia,Seltos S,29000.0,2,1.68415E8
+Maserati,GranTurismo MC,67000.0,1,1.206E9
+Lexus,RX 350 F Sport Performance,38099.5,2,1.75225E9
+Nissan,Pathfinder Silver,5000.0,1,1.03E9
+Toyota,RAV4 SE,18500.0,1,2.000405E9
+Lucid,Air Grand Touring,109499.5,2,4.26236448E8
+Ferrari,Roma Base,267250.0,2,5.83875E8
+BMW,M550 i xDrive,49800.0,3,3.9037E8
+BMW,M3 Base,35322.4,30,3.4755237E8
+Mercedes-Benz,AMG C 43 AMG C 43 4MATIC,44635.0,2,1.41375E9
+Genesis,G80 2.5T,41299.0,1,3.05447404E8
+BMW,X5 eDrive xDrive40e,30750.0,1,1.3865175E9
+Lincoln,Corsair Reserve,36999.0,1,1.085402664E9
+Porsche,Cayenne GTS,30300.0,3,2.03409E9
+Jaguar,XJ Base,8800.0,1,9.856E8
+INFINITI,Q50 3.0t Red Sport 400,32949.5,2,8.63704656E8
+Audi,A4 2.0T Titanium Premium,27900.0,1,2.0367E8
+Audi,A6 45 Premium Plus,40000.0,1,1.32E9
+Porsche,Cayman R,75000.0,1,4.05E9
+Land,Rover Range Rover Velar P380 SE R-Dynamic,51900.0,1,1.0282947E9
+Rivian,R1S Adventure Package,94404.16666666667,12,1.51845E7
+Toyota,RAV4 Hybrid XLE,33000.0,1,1.782E9
+Honda,Civic EX,12766.5,6,3.6231E8
+Volkswagen,Beetle 1.8T,19000.0,1,5.7E8
+Porsche,Cayenne S,30416.5,6,1.332E9
+Dodge,Charger GT,26845.0,2,8.90967E8
+Ford,Bronco Big Bend Advanced,54245.0,2,6.26635E8
+Honda,Passport TrailSport,39999.0,1,4.65948351E8
+Acura,NSX Base,117050.0,2,9.386597E8
+Chevrolet,Silverado 1500 LTZ,43225.0,2,2.48484444E9
+Chevrolet,Corvette Z06 w/2LZ,179000.0,1,3.6158E7

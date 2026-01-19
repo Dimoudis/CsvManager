@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* header and table data */
+th, td {
+    border: 1px solid #000000;
+    padding: 4px;
+    text-align: l;
+}
+
+th {
+    background-color: rgb(161, 157, 157);
+}
+
+/* pseudo classes odd/even rows */
+tr:nth-child(odd) {
+    background-color: #6d6a6a09;
+}
+
+tr:nth-child(even) {
+    background-color: #dfd8d8dc;
+}
+
+#controls {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+button { 
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#csvFileInput {
+    cursor: pointer;
+} 
+
+#pagination {
+    margin-top: 10px;
+}
+
+.dropdown {
+    position: absolute; 
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 130px;
+}
+
+/* for every label in dropdown class */
+.dropdown label {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+/* every element in this class is hidden before csv load */
+.hidden {
+    display: none;
+}
