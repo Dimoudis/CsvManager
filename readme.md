@@ -3,6 +3,8 @@ It focuses on managing data from csv files
 
 ◉ Current features
 
+initial commit:
+
 - csv file upload
 
 - the table is dynamically created with headers and rows
@@ -15,11 +17,17 @@ It focuses on managing data from csv files
 
 - page navigation: “Prev” and “Next” buttons allow users to navigate between pages
 
+second commit:
+
+- add form for new records
+
+- add validation on record creation (not empty fields)
+
+- fix pagination (from first page you can go to the last (prev), and from the last page you can go to the first (next))
+
 ◉ Features 
 
 - editing records
-
-- adding new records
 
 - deleting records
 

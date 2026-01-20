@@ -6,6 +6,11 @@ const tbody = table.querySelector("tbody"); //table body
 const columnControls = document.getElementById("columnControls"); //dropdown div
 const columnsBtn = document.getElementById("columnsBtn"); //dropdown div button
 
+// add form elements
+const addFormContainer = document.getElementById("addFormContainer");
+const addForm = document.getElementById("addForm");
+const addRecordBtn = document.getElementById("addRecordBtn");
+
 // pagination
 const pagination = document.getElementById("pagination");
 const prevBtn = document.getElementById("prevPage");
@@ -32,6 +37,7 @@ fileInput.addEventListener("change", (event) => {
             thead.innerHTML = "";
             tbody.innerHTML = "";
             columnControls.innerHTML = "";
+            addForm.innerHTML = "";
             hiddenColumns = [];
 
             //results.data[0] -> { Brand: "Toyota", Model: "Corolla"} 
@@ -45,6 +51,13 @@ fileInput.addEventListener("change", (event) => {
                 headerRow.appendChild(th); //add row in tr (headerRow)
 
                 createCheckbox(header, index); //call createCheckbox
+
+                // for every header create an input 
+                const input = document.createElement("input");
+                input.type = "text";
+                input.placeholder = header;
+                input.name = header; //
+                addForm.appendChild(input);
             });
             thead.appendChild(headerRow);
 
@@ -54,6 +67,7 @@ fileInput.addEventListener("change", (event) => {
 
             // show button and form
             columnsBtn.classList.remove("hidden");
+            addFormContainer.classList.remove("hidden");
             pagination.style.display = "block";
         }
     });
@@ -92,17 +106,24 @@ const updatePageInfo = () => {
 
 nextBtn.addEventListener("click", () => {
     const totalPages = Math.ceil(allData.length / rowsPerPage);
-    if (currentPage < totalPages) {
+
+    if (currentPage === totalPages) { //if current page is last page
+        currentPage = 1; //go to 1st page
+    } else {
         currentPage++;
-        renderTablePage();
     }
+    renderTablePage();
 });
 
 prevBtn.addEventListener("click", () => {
-    if (currentPage > 1) {
+    const totalPages = Math.ceil(allData.length / rowsPerPage);
+
+    if (currentPage === 1) { //if current page is first page
+        currentPage = totalPages; // go to last page
+    } else {
         currentPage--;
-        renderTablePage();
     }
+    renderTablePage();
 });
 
 columnsBtn.addEventListener("click", () => { 
@@ -140,3 +161,22 @@ const toggleColumn = (columnIndex, show) => {
     }
 };
 
+// add record
+addRecordBtn.addEventListener("click", () => {
+    const newRecord = {}; //create empty obj
+    headers.forEach(header => {
+        newRecord[header] = addForm.querySelector(`[name="${header}"]`).value; //fill objects with inputs
+    });
+
+    if (Object.values(newRecord).some(v => v === "")) { //defensive check 
+        alert("Please complete all fields"); 
+        return; //out of the event listener
+    }
+
+    allData.push(newRecord); //add record in table (last page)
+    currentPage = Math.ceil(allData.length / rowsPerPage); //direct to last page
+    renderTablePage(); //recreate table (thats why the new record appears)
+
+    // clean form 
+    addForm.querySelectorAll("input").forEach(input => input.value = "");
+});

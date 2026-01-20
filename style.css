@@ -60,3 +60,16 @@ button {
 .hidden {
     display: none;
 }
+
+#addFormContainer {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+		
+#addForm input {
+	margin-right: 6px;
+	margin-bottom: 4px;
+	padding: 4px;
+	width: 150px;
+}
