@@ -16,7 +16,7 @@ th {
 
 /* pseudo classes odd/even rows */
 tr:nth-child(odd) {
-    background-color: #6d6a6a09;
+    background-color: #6d6a6a09; 
 }
 
 tr:nth-child(even) {

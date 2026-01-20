@@ -123,7 +123,7 @@ prevBtn.addEventListener("click", () => {
     } else {
         currentPage--;
     }
-    renderTablePage();
+    renderTablePage(); 
 });
 
 columnsBtn.addEventListener("click", () => { 
