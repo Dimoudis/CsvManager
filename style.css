@@ -73,3 +73,11 @@ button {
 	padding: 4px;
 	width: 150px;
 }
+
+.delete-btn {
+    background: none; /* no background */
+    border: none;    /* no border */
+    padding: 1;           
+    cursor: pointer;       
+    font-size: 18px;     
+}

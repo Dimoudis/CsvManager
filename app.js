@@ -44,9 +44,12 @@ fileInput.addEventListener("change", (event) => {
             //Object.keys -> ["Brand", "Model", "Year"]
             headers = Object.keys(results.data[0]); 
 
-            const headerRow = document.createElement("tr"); //creates row (will be filled with headers)
+            const headerRow = document.createElement("tr");
+            const optionsTh = document.createElement("th"); //th for del/edit
+            optionsTh.textContent = "Options";
+            headerRow.appendChild(optionsTh); //creates row (will be filled with headers)
             headers.forEach((header, index) => { //for every column (headers)
-                const th = document.createElement("th"); //creates row header
+                const th = document.createElement("th");
                 th.textContent = header; 
                 headerRow.appendChild(th); //add row in tr (headerRow)
 
@@ -80,17 +83,46 @@ const renderTablePage = () => {
     const end = start + rowsPerPage;
     const pageRows = allData.slice(start, end); //current page
 
-    pageRows.forEach(rowObj => { //
-        const tr = document.createElement("tr"); //new row (tr) for every object
+    pageRows.forEach((rowObj, rowIndex) => { 
+    const tr = document.createElement("tr"); //new row (tr) for every object
 
-        Object.values(rowObj).forEach(value => {
-            const td = document.createElement("td"); //creates td
-            td.textContent = value ?? ""; //fill each td and check if null or undefined
-            tr.appendChild(td); //fill each tr with td
-        });
+    // options column (edit / delete later)
+    const optionsTd = document.createElement("td");
+    optionsTd.textContent = ""; //buttons 
+    tr.appendChild(optionsTd);
 
-        tbody.appendChild(tr); //fill tbody with every tr
+    // delete button
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "❌";  
+    deleteBtn.classList.add("delete-btn"); //class for css
+
+    //delete
+    deleteBtn.addEventListener("click", () => {
+
+        // delete confirmation 
+        const confirmed = confirm("Are you sure?"); //confirm browser method (window)
+        if (!confirmed) return; //cancel
+
+        const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
+        allData.splice(globalIndex, 1); // delete record
+
+        const totalPages = Math.ceil(allData.length / rowsPerPage); //if we delete last record of the last page
+        if (currentPage > totalPages) currentPage = totalPages; 
+
+        renderTablePage();
     });
+
+    optionsTd.appendChild(deleteBtn);
+    tr.appendChild(optionsTd);
+
+    Object.values(rowObj).forEach(value => {
+        const td = document.createElement("td"); //creates td
+        td.textContent = value ?? ""; //fill each td and check if null or undefined
+        tr.appendChild(td); //fill each tr with td
+    });
+
+    tbody.appendChild(tr); //fill tbody with every tr
+});
 
     hiddenColumns.forEach(colIndex => toggleColumn(colIndex, false));
     updatePageInfo();
@@ -145,10 +177,10 @@ const createCheckbox = (columnName, columnIndex) => {
 
 const toggleColumn = (columnIndex, show) => { 
     const displayValue = show ? "" : "none"; // if show = true, show column
-    const headerCell = thead.querySelectorAll("th")[columnIndex]; //hide/show header
+    const headerCell = thead.querySelectorAll("th")[columnIndex + 1]; //hide/show header (+1 cause of options col)
     headerCell.style.display = displayValue; 
     tbody.querySelectorAll("tr").forEach(row => { //for each row of the table
-        const cell = row.children[columnIndex];
+        const cell = row.children[columnIndex + 1];
         if (cell) cell.style.display = displayValue;
     });
 
