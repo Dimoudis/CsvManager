@@ -25,10 +25,14 @@ second commit:
 
 - fix pagination (from first page you can go to the last (prev), and from the last page you can go to the first (next))
 
+third commit:
+
+- add delete record with delete confirmation dialog
+
 ◉ Features 
 
-- editing records
+- undo delete
 
-- deleting records
+- editing records
 
 - exporting table data as csv
