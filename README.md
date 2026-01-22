@@ -29,9 +29,11 @@ third commit:
 
 - add delete record with delete confirmation dialog
 
-◉ Features 
+fourth commit:
 
-- undo delete
+- undo delete (only for last deleted record)
+
+◉ Features 
 
 - editing records
 

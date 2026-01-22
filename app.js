@@ -17,6 +17,11 @@ const prevBtn = document.getElementById("prevPage");
 const nextBtn = document.getElementById("nextPage");
 const pageInfo = document.getElementById("pageInfo"); //current page
 
+//undo delete
+let lastDeleted = null;
+let lastDeletedIndex = null;
+const undoBtn = document.getElementById("undoBtn");
+
 // data
 let headers = []; 
 let allData = []; 
@@ -104,7 +109,13 @@ const renderTablePage = () => {
         if (!confirmed) return; //cancel
 
         const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
-        allData.splice(globalIndex, 1); // delete record
+
+        lastDeleted = allData[globalIndex];
+        lastDeletedIndex = globalIndex;
+
+        allData.splice(globalIndex, 1);
+
+        undoBtn.classList.remove("hidden"); // delete button appear after first delete
 
         const totalPages = Math.ceil(allData.length / rowsPerPage); //if we delete last record of the last page
         if (currentPage > totalPages) currentPage = totalPages; 
@@ -127,6 +138,17 @@ const renderTablePage = () => {
     hiddenColumns.forEach(colIndex => toggleColumn(colIndex, false));
     updatePageInfo();
 };
+
+// undo delete  
+undoBtn.addEventListener("click", () => {
+    if (lastDeleted !== null) {
+        allData.splice(lastDeletedIndex, 0, lastDeleted); // add record where it was
+        lastDeleted = null;
+        lastDeletedIndex = null;
+        undoBtn.classList.add("hidden"); //hide undo-button after use
+        renderTablePage(); //build table again
+        }
+    });
 
 //pagination
 const updatePageInfo = () => {
