@@ -123,6 +123,41 @@ const renderTablePage = () => {
         renderTablePage();
     });
 
+    //edit button
+    const editBtn = document.createElement("button");
+    editBtn.textContent = "✏️";
+    optionsTd.appendChild(editBtn);
+    editBtn.classList.add("edit-btn");
+
+    //edit
+    editBtn.addEventListener("click", () => { 
+        const isEditing = tr.classList.contains("editing"); //local check
+
+        if (!isEditing) { // if tr is editing (editing = true)
+            tr.classList.add("editing"); //add class editing to <tr>
+            editBtn.textContent = "💾"; 
+
+            headers.forEach((header, i) => {
+                const cell = tr.children[i + 1];
+                const input = document.createElement("input"); // new input
+                input.value = cell.textContent; //input in current cell 
+                cell.textContent = ""; //clean td
+                cell.appendChild(input); //add input in td
+            });
+        } else { // editing = false
+            tr.classList.remove("editing"); 
+            editBtn.textContent = "✏️";
+
+            const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
+
+            headers.forEach((header, i) => {
+                const input = tr.children[i + 1].querySelector("input"); // +1 cause first <td> is options
+                allData[globalIndex][header] = input.value; //put value in allData[]
+                tr.children[i + 1].textContent = input.value; //replace <td> with new value
+            });
+        }
+    });
+
     optionsTd.appendChild(deleteBtn);
     tr.appendChild(optionsTd);
 

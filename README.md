@@ -33,8 +33,12 @@ fourth commit:
 
 - undo delete (only for last deleted record)
 
+- editing records
+
 ◉ Features 
 
-- editing records
+- cancel edit
+
+- undo edit
 
 - exporting table data as csv
