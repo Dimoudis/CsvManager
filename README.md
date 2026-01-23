@@ -35,10 +35,14 @@ fourth commit:
 
 - editing records
 
+fifth commit: 
+
+- exporting table data as csv
+
 ◉ Features 
 
 - cancel edit
 
 - undo edit
 
-- exporting table data as csv
+- exporting table data as other file formats

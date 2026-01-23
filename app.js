@@ -22,6 +22,9 @@ let lastDeleted = null;
 let lastDeletedIndex = null;
 const undoBtn = document.getElementById("undoBtn");
 
+//export button
+const exportBtn = document.getElementById("exportBtn");
+
 // data
 let headers = []; 
 let allData = []; 
@@ -71,12 +74,14 @@ fileInput.addEventListener("change", (event) => {
 
             allData = results.data; //save all data
             currentPage = 1;
+            
             renderTablePage(); //call renderTablePage
 
             // show button and form
             columnsBtn.classList.remove("hidden");
             addFormContainer.classList.remove("hidden");
             pagination.style.display = "block";
+            exportBtn.classList.remove("hidden");            
         }
     });
 });
@@ -250,22 +255,42 @@ const toggleColumn = (columnIndex, show) => {
     }
 };
 
-// add record
-addRecordBtn.addEventListener("click", () => {
-    const newRecord = {}; //create empty obj
-    headers.forEach(header => {
-        newRecord[header] = addForm.querySelector(`[name="${header}"]`).value; //fill objects with inputs
+exportBtn.addEventListener("click", () => { 
+    if (allData.length === 0) return; // if there is no data in allData[], do nothing
+    
+    const shownColumns = headers.filter((_, i) => !hiddenColumns.includes(i)); // take only the visible columns
+    let allCsvLines = []; // empty array for all csv lines
+
+    // add the first row of csv (headers) and join with commas
+    allCsvLines.push(shownColumns.join(","));
+
+    // for every row in allData[]
+    allData.forEach(row => {
+        // for each visible column get the cell value
+        let rowCells = shownColumns.map(col => {
+            let value = row[col] || ""; // get value of the column or empty if undefined
+
+            // if the cell contains comma or " wrap it
+            if (value.includes(",") || value.includes('"')) {
+                value = '"' + value.replace(/"/g, '""') + '"';
+            }
+            return value;
+        });
+
+        // join all cells of this row with commas
+        allCsvLines.push(rowCells.join(","));
     });
 
-    if (Object.values(newRecord).some(v => v === "")) { //defensive check 
-        alert("Please complete all fields"); 
-        return; //out of the event listener
-    }
+    // join all rows with newlines to make the Csv string
+    let csvContent = allCsvLines.join("\n");
 
-    allData.push(newRecord); //add record in table (last page)
-    currentPage = Math.ceil(allData.length / rowsPerPage); //direct to last page
-    renderTablePage(); //recreate table (thats why the new record appears)
+    //Blob object containing the csv string
+    let fileBlob = new Blob([csvContent], { type: "text/csv" });
+    let fileUrl = URL.createObjectURL(fileBlob);
 
-    // clean form 
-    addForm.querySelectorAll("input").forEach(input => input.value = "");
+    // create a temporary link element
+    let tempLink = document.createElement("a");
+    tempLink.href = fileUrl;
+    tempLink.download = "export.csv"; // filename
+    tempLink.click(); // automatically click to start download
 });
