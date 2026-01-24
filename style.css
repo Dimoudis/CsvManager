@@ -1,26 +1,27 @@
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; 
+    border-collapse: collapse; 
 }
 
 /* header and table data */
 th, td {
-    border: 1px solid #000000;
+    border: 1px solid #a5c1e8;
     padding: 4px;
-    text-align: l;
+    text-align: left;
 }
 
-th {
-    background-color: rgb(161, 157, 157);
+th { /* header */
+    background-color: #4a90e2;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 /* pseudo classes odd/even rows */
 tr:nth-child(odd) {
-    background-color: #6d6a6a09; 
+    background-color: #f3f8fd;
 }
 
 tr:nth-child(even) {
-    background-color: #dfd8d8dc;
+    background-color: #e8f1fb;
 }
 
 #controls {
@@ -28,23 +29,31 @@ tr:nth-child(even) {
     position: relative;
 }
 
-button { 
+button {
     padding: 6px 12px;
     cursor: pointer;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #357ab8;
 }
 
 #csvFileInput {
     cursor: pointer;
-} 
+}
 
 #pagination {
     margin-top: 10px;
 }
 
 .dropdown {
-    position: absolute; 
-    background: white;
-    border: 1px solid #ccc;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #357ab8;
     padding: 5px;
     width: 130px;
 }
@@ -58,38 +67,50 @@ button {
 
 /* every element in this class is hidden before csv load */
 .hidden {
-    display: none;
+    display: none; 
 }
 
 #addFormContainer {
-	margin-bottom: 15px;
-	padding: 10px;
-	border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #357ab8;
+    background-color: #a5c1e8;
 }
-		
+
 #addForm input {
-	margin-right: 6px;
-	margin-bottom: 4px;
-	padding: 4px;
-	width: 150px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 150px;
+    border: 1px solid #357ab8;
 }
 
 .delete-btn {
-    background: none; /* no background */
-    border: none;    /* no border */
-    padding: 1;           
-    cursor: pointer;       
-    font-size: 18px;     
+    background: none;
+    border: none;
+    padding: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.delete-btn:hover {
+    color: #ffffff;
 }
 
 .edit-btn {
-    background: none; 
-    border: none;    
-    padding: 1;           
-    cursor: pointer;       
-    font-size: 18px;     
+    background: none;
+    border: none;
+    padding: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2980b9;
+}
+
+.edit-btn:hover {
+    color: #ffffff;
 }
 
 .editing {
-    background-color: #fff3cd;
+    background-color: #bcd5e8!important;
 }

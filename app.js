@@ -35,11 +35,11 @@ const rowsPerPage = 10;
 //load csv
 fileInput.addEventListener("change", (event) => {
     const file = event.target.files[0];
-    if (!file) return; //if 
+    if (!file) return; //if no file selected
 
     Papa.parse(file, {
         header: true, //
-        skipEmptyLines: true, //skip emtpy rows
+        skipEmptyLines: true, //skip empty rows
         complete: (results) => { //callback after csv load
             //reset 
             thead.innerHTML = "";
@@ -56,6 +56,7 @@ fileInput.addEventListener("change", (event) => {
             const optionsTh = document.createElement("th"); //th for del/edit
             optionsTh.textContent = "Options";
             headerRow.appendChild(optionsTh); //creates row (will be filled with headers)
+
             headers.forEach((header, index) => { //for every column (headers)
                 const th = document.createElement("th");
                 th.textContent = header; 
@@ -63,7 +64,7 @@ fileInput.addEventListener("change", (event) => {
 
                 createCheckbox(header, index); //call createCheckbox
 
-                // for every header create an input 
+                // for every header create an input for Add Record form
                 const input = document.createElement("input");
                 input.type = "text";
                 input.placeholder = header;
@@ -94,86 +95,83 @@ const renderTablePage = () => {
     const pageRows = allData.slice(start, end); //current page
 
     pageRows.forEach((rowObj, rowIndex) => { 
-    const tr = document.createElement("tr"); //new row (tr) for every object
+        const tr = document.createElement("tr"); //new row (tr) for every object
 
-    // options column (edit / delete later)
-    const optionsTd = document.createElement("td");
-    optionsTd.textContent = ""; //buttons 
-    tr.appendChild(optionsTd);
+        // options column (edit / delete)
+        const optionsTd = document.createElement("td");
+        optionsTd.textContent = ""; //buttons 
+        tr.appendChild(optionsTd);
 
-    // delete button
-    const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "❌";  
-    deleteBtn.classList.add("delete-btn"); //class for css
+        // delete button
+        const deleteBtn = document.createElement("button");
+        deleteBtn.textContent = "Delete";  
+        deleteBtn.classList.add("delete-btn"); //class for css
 
-    //delete
-    deleteBtn.addEventListener("click", () => {
-
-        // delete confirmation 
-        const confirmed = confirm("Are you sure?"); //confirm browser method (window)
-        if (!confirmed) return; //cancel
-
-        const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
-
-        lastDeleted = allData[globalIndex];
-        lastDeletedIndex = globalIndex;
-
-        allData.splice(globalIndex, 1);
-
-        undoBtn.classList.remove("hidden"); // delete button appear after first delete
-
-        const totalPages = Math.ceil(allData.length / rowsPerPage); //if we delete last record of the last page
-        if (currentPage > totalPages) currentPage = totalPages; 
-
-        renderTablePage();
-    });
-
-    //edit button
-    const editBtn = document.createElement("button");
-    editBtn.textContent = "✏️";
-    optionsTd.appendChild(editBtn);
-    editBtn.classList.add("edit-btn");
-
-    //edit
-    editBtn.addEventListener("click", () => { 
-        const isEditing = tr.classList.contains("editing"); //local check
-
-        if (!isEditing) { // if tr is editing (editing = true)
-            tr.classList.add("editing"); //add class editing to <tr>
-            editBtn.textContent = "💾"; 
-
-            headers.forEach((header, i) => {
-                const cell = tr.children[i + 1];
-                const input = document.createElement("input"); // new input
-                input.value = cell.textContent; //input in current cell 
-                cell.textContent = ""; //clean td
-                cell.appendChild(input); //add input in td
-            });
-        } else { // editing = false
-            tr.classList.remove("editing"); 
-            editBtn.textContent = "✏️";
+        deleteBtn.addEventListener("click", () => {
+            const confirmed = confirm("Are you sure?"); //confirm browser method
+            if (!confirmed) return; //cancel
 
             const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
 
-            headers.forEach((header, i) => {
-                const input = tr.children[i + 1].querySelector("input"); // +1 cause first <td> is options
-                allData[globalIndex][header] = input.value; //put value in allData[]
-                tr.children[i + 1].textContent = input.value; //replace <td> with new value
-            });
-        }
+            lastDeleted = allData[globalIndex];
+            lastDeletedIndex = globalIndex;
+
+            allData.splice(globalIndex, 1);
+
+            undoBtn.classList.remove("hidden"); // delete button appear after first delete
+
+            const totalPages = Math.ceil(allData.length / rowsPerPage); 
+            if (currentPage > totalPages) currentPage = totalPages; 
+
+            renderTablePage();
+        });
+
+        //edit button
+        const editBtn = document.createElement("button");
+        editBtn.textContent = "Edit";
+        optionsTd.appendChild(editBtn);
+        editBtn.classList.add("edit-btn");
+
+        editBtn.addEventListener("click", () => { 
+            const isEditing = tr.classList.contains("editing"); //local check
+
+            if (!isEditing) { // start editing
+                tr.classList.add("editing"); 
+                editBtn.textContent = "Save"; 
+
+                headers.forEach((header, i) => {
+                    const cell = tr.children[i + 1];
+                    const input = document.createElement("input"); 
+                    input.value = cell.textContent; 
+                    cell.textContent = ""; 
+                    cell.appendChild(input); 
+                });
+            } else { // finish editing
+                tr.classList.remove("editing"); 
+                editBtn.textContent = "Edit";
+
+                const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
+
+                headers.forEach((header, i) => {
+                    const input = tr.children[i + 1].querySelector("input"); // +1 because first <td> is options
+                    allData[globalIndex][header] = input.value; 
+                    tr.children[i + 1].textContent = input.value; 
+                });
+            }
+        });
+
+        optionsTd.appendChild(deleteBtn);
+        tr.appendChild(optionsTd);
+
+        // fill row with data
+        Object.values(rowObj).forEach(value => {
+            const td = document.createElement("td"); 
+            td.textContent = value ?? ""; 
+            tr.appendChild(td); 
+        });
+
+        tbody.appendChild(tr); 
     });
-
-    optionsTd.appendChild(deleteBtn);
-    tr.appendChild(optionsTd);
-
-    Object.values(rowObj).forEach(value => {
-        const td = document.createElement("td"); //creates td
-        td.textContent = value ?? ""; //fill each td and check if null or undefined
-        tr.appendChild(td); //fill each tr with td
-    });
-
-    tbody.appendChild(tr); //fill tbody with every tr
-});
 
     hiddenColumns.forEach(colIndex => toggleColumn(colIndex, false));
     updatePageInfo();
@@ -186,111 +184,110 @@ undoBtn.addEventListener("click", () => {
         lastDeleted = null;
         lastDeletedIndex = null;
         undoBtn.classList.add("hidden"); //hide undo-button after use
-        renderTablePage(); //build table again
-        }
-    });
+        renderTablePage(); 
+    }
+});
 
 //pagination
 const updatePageInfo = () => {
     const totalPages = Math.ceil(allData.length / rowsPerPage); 
     pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-    prevBtn.style.display = totalPages > 1 ? "inline-block" : "none"; //hide if csv has a single page
+    prevBtn.style.display = totalPages > 1 ? "inline-block" : "none"; 
     nextBtn.style.display = totalPages > 1 ? "inline-block" : "none";
 };
 
 nextBtn.addEventListener("click", () => {
     const totalPages = Math.ceil(allData.length / rowsPerPage);
-
-    if (currentPage === totalPages) { //if current page is last page
-        currentPage = 1; //go to 1st page
-    } else {
-        currentPage++;
-    }
+    currentPage = currentPage === totalPages ? 1 : currentPage + 1;
     renderTablePage();
 });
 
 prevBtn.addEventListener("click", () => {
     const totalPages = Math.ceil(allData.length / rowsPerPage);
-
-    if (currentPage === 1) { //if current page is first page
-        currentPage = totalPages; // go to last page
-    } else {
-        currentPage--;
-    }
+    currentPage = currentPage === 1 ? totalPages : currentPage - 1;
     renderTablePage(); 
 });
 
 columnsBtn.addEventListener("click", () => { 
-    columnControls.classList.toggle("hidden"); //gives access to css class 
+    columnControls.classList.toggle("hidden"); 
 });
 
 const createCheckbox = (columnName, columnIndex) => {
-    const label = document.createElement("label"); //and column name 
-    const checkbox = document.createElement("input");//checkbox 
+    const label = document.createElement("label"); 
+    const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.checked = true; 
 
-    checkbox.addEventListener("change", () => toggleColumn(columnIndex, checkbox.checked)); //if checkbox change 
+    checkbox.addEventListener("change", () => toggleColumn(columnIndex, checkbox.checked)); 
 
-    label.appendChild(checkbox); //add checkbox in label
-    label.appendChild(document.createTextNode(" " + columnName)); //add column name in label
-    columnControls.appendChild(label); //add label in dropdown div
+    label.appendChild(checkbox); 
+    label.appendChild(document.createTextNode(" " + columnName)); 
+    columnControls.appendChild(label); 
 };
 
 const toggleColumn = (columnIndex, show) => { 
-    const displayValue = show ? "" : "none"; // if show = true, show column
-    const headerCell = thead.querySelectorAll("th")[columnIndex + 1]; //hide/show header (+1 cause of options col)
+    const displayValue = show ? "" : "none"; 
+    const headerCell = thead.querySelectorAll("th")[columnIndex + 1]; 
     headerCell.style.display = displayValue; 
-    tbody.querySelectorAll("tr").forEach(row => { //for each row of the table
+    tbody.querySelectorAll("tr").forEach(row => { 
         const cell = row.children[columnIndex + 1];
         if (cell) cell.style.display = displayValue;
     });
 
-    if (!show) { //to hide  
-    if (!hiddenColumns.includes(columnIndex)) { //if column isnt in hiddenColumns[] 
-        hiddenColumns.push(columnIndex); //add it
-        }
-    } else { //if column should be displayed again
-        hiddenColumns = hiddenColumns.filter(i => i !== columnIndex); //Remove it from  hidden list
+    if (!show) { 
+        if (!hiddenColumns.includes(columnIndex)) hiddenColumns.push(columnIndex); 
+    } else { 
+        hiddenColumns = hiddenColumns.filter(i => i !== columnIndex); 
     }
 };
 
+//export CSV
 exportBtn.addEventListener("click", () => { 
-    if (allData.length === 0) return; // if there is no data in allData[], do nothing
+    if (allData.length === 0) return; 
     
-    const shownColumns = headers.filter((_, i) => !hiddenColumns.includes(i)); // take only the visible columns
-    let allCsvLines = []; // empty array for all csv lines
+    const shownColumns = headers.filter((_, i) => !hiddenColumns.includes(i)); 
+    let allCsvLines = []; 
+    allCsvLines.push(shownColumns.join(",")); // headers
 
-    // add the first row of csv (headers) and join with commas
-    allCsvLines.push(shownColumns.join(","));
-
-    // for every row in allData[]
     allData.forEach(row => {
-        // for each visible column get the cell value
         let rowCells = shownColumns.map(col => {
-            let value = row[col] || ""; // get value of the column or empty if undefined
-
-            // if the cell contains comma or " wrap it
+            let value = row[col] || ""; 
             if (value.includes(",") || value.includes('"')) {
                 value = '"' + value.replace(/"/g, '""') + '"';
             }
             return value;
         });
-
-        // join all cells of this row with commas
         allCsvLines.push(rowCells.join(","));
     });
 
-    // join all rows with newlines to make the Csv string
     let csvContent = allCsvLines.join("\n");
-
-    //Blob object containing the csv string
     let fileBlob = new Blob([csvContent], { type: "text/csv" });
     let fileUrl = URL.createObjectURL(fileBlob);
 
-    // create a temporary link element
     let tempLink = document.createElement("a");
     tempLink.href = fileUrl;
-    tempLink.download = "export.csv"; // filename
-    tempLink.click(); // automatically click to start download
+    tempLink.download = "export.csv"; 
+    tempLink.click(); 
+});
+
+//add record 
+addRecordBtn.addEventListener("click", () => {
+    const newRecord = {}; //create empty obj
+    headers.forEach(header => {
+        //fill object from inputs
+        newRecord[header] = addForm.querySelector(`[name="${header}"]`).value;
+    });
+
+    //check if any field is empty
+    if (Object.values(newRecord).some(v => v === "")) { 
+        alert("Please complete all fields"); 
+        return; 
+    }
+
+    allData.push(newRecord); //add record
+    currentPage = Math.ceil(allData.length / rowsPerPage); //go to last page
+    renderTablePage(); //update table
+
+    // clean form inputs
+    addForm.querySelectorAll("input").forEach(input => input.value = "");
 });
