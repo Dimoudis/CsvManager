@@ -35,56 +35,63 @@ const rowsPerPage = 10;
 //load csv
 fileInput.addEventListener("change", (event) => {
     const file = event.target.files[0];
-    if (!file) return; //if no file selected
+    if (!file) return;
 
-    Papa.parse(file, {
-        header: true, //
-        skipEmptyLines: true, //skip empty rows
-        complete: (results) => { //callback after csv load
-            //reset 
-            thead.innerHTML = "";
-            tbody.innerHTML = "";
-            columnControls.innerHTML = "";
-            addForm.innerHTML = "";
-            hiddenColumns = [];
+    const reader = new FileReader(); 
 
-            //results.data[0] -> { Brand: "Toyota", Model: "Corolla"} 
-            //Object.keys -> ["Brand", "Model", "Year"]
-            headers = Object.keys(results.data[0]); 
+    reader.onload = (e) => { //when reading is complete
+        const text = e.target.result.trim();
+        const lines = text.split("\n"); //split file in rows
 
-            const headerRow = document.createElement("tr");
-            const optionsTh = document.createElement("th"); //th for del/edit
-            optionsTh.textContent = "Options";
-            headerRow.appendChild(optionsTh); //creates row (will be filled with headers)
+        headers = lines[0].split(",").map(h => h.trim()); //headers
 
-            headers.forEach((header, index) => { //for every column (headers)
-                const th = document.createElement("th");
-                th.textContent = header; 
-                headerRow.appendChild(th); //add row in tr (headerRow)
+        // reset
+        thead.innerHTML = "";
+        tbody.innerHTML = "";
+        columnControls.innerHTML = "";
+        addForm.innerHTML = "";
+        hiddenColumns = [];
 
-                createCheckbox(header, index); //call createCheckbox
+        const headerRow = document.createElement("tr");
+        const optionsTh = document.createElement("th");
+        optionsTh.textContent = "Options";
+        headerRow.appendChild(optionsTh);
 
-                // for every header create an input for Add Record form
-                const input = document.createElement("input");
-                input.type = "text";
-                input.placeholder = header;
-                input.name = header; //
-                addForm.appendChild(input);
-            });
-            thead.appendChild(headerRow);
+        headers.forEach((header, index) => { //for every column
+            const th = document.createElement("th"); //create <th> 
+            th.textContent = header;
+            headerRow.appendChild(th);
 
-            allData = results.data; //save all data
-            currentPage = 1;
-            
-            renderTablePage(); //call renderTablePage
+            createCheckbox(header, index);
 
-            // show button and form
-            columnsBtn.classList.remove("hidden");
-            addFormContainer.classList.remove("hidden");
-            pagination.style.display = "block";
-            exportBtn.classList.remove("hidden");            
-        }
-    });
+            const input = document.createElement("input"); //input for every column
+            input.type = "text";
+            input.placeholder = header;
+            input.name = header;
+            addForm.appendChild(input);
+        });
+
+        thead.appendChild(headerRow);
+
+        // data
+        allData = lines.slice(1).map(line => { //ignore first line 
+            const values = line.split(",");
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]?.trim() ?? "");
+            return obj;
+        });
+
+        currentPage = 1;
+        renderTablePage();
+        
+        //show controls
+        columnsBtn.classList.remove("hidden");
+        addFormContainer.classList.remove("hidden");
+        pagination.style.display = "block";
+        exportBtn.classList.remove("hidden");
+    };
+
+    reader.readAsText(file); 
 });
 
 //creates from scratch the table of the current page 
