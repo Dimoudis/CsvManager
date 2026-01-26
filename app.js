@@ -15,7 +15,7 @@ const addRecordBtn = document.getElementById("addRecordBtn");
 const pagination = document.getElementById("pagination");
 const prevBtn = document.getElementById("prevPage");
 const nextBtn = document.getElementById("nextPage");
-const pageInfo = document.getElementById("pageInfo"); //current page
+const pageInfo = document.getElementById("pageInfo"); //current page 
 
 //undo delete
 let lastDeleted = null;
@@ -29,35 +29,36 @@ const exportBtn = document.getElementById("exportBtn");
 let headers = []; 
 let allData = []; 
 let hiddenColumns = []; 
-let currentPage = 1; 
-const rowsPerPage = 10; 
+let currentPage = 1;
+const rowsPerPage = 10;
 
 //load csv
 fileInput.addEventListener("change", (event) => {
-    const file = event.target.files[0];
-    if (!file) return;
+    const file = event.target.files[0]; 
+    if (!file) return; //safety check
 
     const reader = new FileReader(); 
 
     reader.onload = (e) => { //when reading is complete
-        const text = e.target.result.trim();
+        const text = e.target.result.trim(); //csv as string
         const lines = text.split("\n"); //split file in rows
+        //first csv row
+        headers = lines[0].split(",").map(h => h.trim()); //create headers
 
-        headers = lines[0].split(",").map(h => h.trim()); //headers
-
-        // reset
+        // reset all
         thead.innerHTML = "";
         tbody.innerHTML = "";
         columnControls.innerHTML = "";
         addForm.innerHTML = "";
+        fileInput.value = ""; //load the same file
         hiddenColumns = [];
 
-        const headerRow = document.createElement("tr");
-        const optionsTh = document.createElement("th");
+        const headerRow = document.createElement("tr"); //first row of the table
+        const optionsTh = document.createElement("th"); //
         optionsTh.textContent = "Options";
-        headerRow.appendChild(optionsTh);
+        headerRow.appendChild(optionsTh); //<th> in <tr>
 
-        headers.forEach((header, index) => { //for every column
+        headers.forEach((header, index) => { //for every column (header)
             const th = document.createElement("th"); //create <th> 
             th.textContent = header;
             headerRow.appendChild(th);
@@ -68,17 +69,22 @@ fileInput.addEventListener("change", (event) => {
             input.type = "text";
             input.placeholder = header;
             input.name = header;
-            addForm.appendChild(input);
+            addForm.appendChild(input); //<input> in <form>
         });
 
-        thead.appendChild(headerRow);
+        thead.appendChild(headerRow); //header row in table 
 
         // data
-        allData = lines.slice(1).map(line => { //ignore first line 
-            const values = line.split(",");
-            const obj = {};
-            headers.forEach((h, i) => obj[h] = values[i]?.trim() ?? "");
-            return obj;
+        allData = lines.slice(1).map(line => { //take all rows except 1st 
+            let row = {}; //empty obj
+            let values = line.split(",");
+
+            headers.forEach((header, i) => {
+                row[header] = values[i] ? values[i].trim() : "";
+                //key -> value in object
+            });
+
+            return row;
         });
 
         currentPage = 1;
@@ -88,7 +94,7 @@ fileInput.addEventListener("change", (event) => {
         columnsBtn.classList.remove("hidden");
         addFormContainer.classList.remove("hidden");
         pagination.style.display = "block";
-        exportBtn.classList.remove("hidden");
+        exportBtn.classList.remove("hidden");   
     };
 
     reader.readAsText(file); 
