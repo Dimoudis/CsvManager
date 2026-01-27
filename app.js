@@ -4,7 +4,7 @@ const table = document.getElementById("carTable"); //table
 const thead = table.querySelector("thead"); //table header 
 const tbody = table.querySelector("tbody"); //table body
 const columnControls = document.getElementById("columnControls"); //dropdown div
-const columnsBtn = document.getElementById("columnsBtn"); //dropdown div button
+const viewHideBtn = document.getElementById("viewHideBtn"); //dropdown div button
 
 // add form elements
 const addFormContainer = document.getElementById("addFormContainer");
@@ -91,7 +91,7 @@ fileInput.addEventListener("change", (event) => {
         renderTablePage();
         
         //show controls
-        columnsBtn.classList.remove("hidden");
+        viewHideBtn.classList.remove("hidden");
         addFormContainer.classList.remove("hidden");
         pagination.style.display = "block";
         exportBtn.classList.remove("hidden");   
@@ -102,10 +102,10 @@ fileInput.addEventListener("change", (event) => {
 
 //creates from scratch the table of the current page 
 const renderTablePage = () => { 
-    tbody.innerHTML = ""; //change page or load new csv
+    tbody.innerHTML = ""; //clean start
     const start = (currentPage - 1) * rowsPerPage; 
     const end = start + rowsPerPage;
-    const pageRows = allData.slice(start, end); //current page
+    const pageRows = allData.slice(start, end); //only 10 rows
 
     pageRows.forEach((rowObj, rowIndex) => { 
         const tr = document.createElement("tr"); //new row (tr) for every object
@@ -131,7 +131,7 @@ const renderTablePage = () => {
 
             allData.splice(globalIndex, 1);
 
-            undoBtn.classList.remove("hidden"); // delete button appear after first delete
+            undoBtn.classList.remove("hidden"); // undo button appear after first delete
 
             const totalPages = Math.ceil(allData.length / rowsPerPage); 
             if (currentPage > totalPages) currentPage = totalPages; 
@@ -139,28 +139,28 @@ const renderTablePage = () => {
             renderTablePage();
         });
 
-        //edit button
+        //edit and save 
         const editBtn = document.createElement("button");
         editBtn.textContent = "Edit";
-        optionsTd.appendChild(editBtn);
+        optionsTd.appendChild(editBtn); //put it in cell
         editBtn.classList.add("edit-btn");
 
         editBtn.addEventListener("click", () => { 
-            const isEditing = tr.classList.contains("editing"); //local check
+            const isEditing = tr.classList.contains("editing"); //flag
 
             if (!isEditing) { // start editing
                 tr.classList.add("editing"); 
                 editBtn.textContent = "Save"; 
 
                 headers.forEach((header, i) => {
-                    const cell = tr.children[i + 1];
+                    const cell = tr.children[i + 1]; //0 is options
                     const input = document.createElement("input"); 
                     input.value = cell.textContent; 
-                    cell.textContent = ""; 
-                    cell.appendChild(input); 
+                    cell.textContent = ""; //clean cell
+                    cell.appendChild(input); //fill in
                 });
             } else { // finish editing
-                tr.classList.remove("editing"); 
+                tr.classList.remove("editing"); //flag
                 editBtn.textContent = "Edit";
 
                 const globalIndex = (currentPage - 1) * rowsPerPage + rowIndex;
@@ -194,7 +194,7 @@ const renderTablePage = () => {
 undoBtn.addEventListener("click", () => {
     if (lastDeleted !== null) {
         allData.splice(lastDeletedIndex, 0, lastDeleted); // add record where it was
-        lastDeleted = null;
+        lastDeleted = null; 
         lastDeletedIndex = null;
         undoBtn.classList.add("hidden"); //hide undo-button after use
         renderTablePage(); 
@@ -205,7 +205,7 @@ undoBtn.addEventListener("click", () => {
 const updatePageInfo = () => {
     const totalPages = Math.ceil(allData.length / rowsPerPage); 
     pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-    prevBtn.style.display = totalPages > 1 ? "inline-block" : "none"; 
+    prevBtn.style.display = totalPages > 1 ? "inline-block" : "none"; //hide prev/next
     nextBtn.style.display = totalPages > 1 ? "inline-block" : "none";
 };
 
@@ -221,7 +221,7 @@ prevBtn.addEventListener("click", () => {
     renderTablePage(); 
 });
 
-columnsBtn.addEventListener("click", () => { 
+viewHideBtn.addEventListener("click", () => { 
     columnControls.classList.toggle("hidden"); 
 });
 
@@ -235,7 +235,7 @@ const createCheckbox = (columnName, columnIndex) => {
 
     label.appendChild(checkbox); 
     label.appendChild(document.createTextNode(" " + columnName)); 
-    columnControls.appendChild(label); 
+    columnControls.appendChild(label); //put it in dropdown
 };
 
 const toggleColumn = (columnIndex, show) => { 
@@ -246,7 +246,7 @@ const toggleColumn = (columnIndex, show) => {
         const cell = row.children[columnIndex + 1];
         if (cell) cell.style.display = displayValue;
     });
-
+    //hidden list
     if (!show) { 
         if (!hiddenColumns.includes(columnIndex)) hiddenColumns.push(columnIndex); 
     } else { 
@@ -258,7 +258,7 @@ const toggleColumn = (columnIndex, show) => {
 exportBtn.addEventListener("click", () => { 
     if (allData.length === 0) return; 
     
-    const shownColumns = headers.filter((_, i) => !hiddenColumns.includes(i)); 
+    const shownColumns = headers.filter((_, i) => !hiddenColumns.includes(i)); //export all except hidden
     let allCsvLines = []; 
     allCsvLines.push(shownColumns.join(",")); // headers
 
@@ -298,7 +298,7 @@ addRecordBtn.addEventListener("click", () => {
     }
 
     allData.push(newRecord); //add record
-    currentPage = Math.ceil(allData.length / rowsPerPage); //go to last page
+    currentPage = Math.ceil(allData.length / rowsPerPage); //to last page
     renderTablePage(); //update table
 
     // clean form inputs
