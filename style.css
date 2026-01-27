@@ -1,14 +1,16 @@
 table {
     width: 100%; 
     border-collapse: collapse; 
+    font-family: Arial;
 }
 
 #pageTitle {
     text-align: center;
     color: #4a90e2;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 34px;
     border-bottom: 2px solid #4a90e2;
+    letter-spacing: 0.5px;
     padding-bottom: 5px;
 }
 
@@ -39,16 +41,19 @@ tr:nth-child(even) {
 }
 
 button {
-    padding: 6px 12px;
+    padding: 6px 12px; 
     cursor: pointer;
     background-color: #4a90e2;
     color: white;
     border: none;
     border-radius: 4px;
+    font-weight: bold;
+    transition: 0.8s ease-in-out;
 }
 
 button:hover {
     background-color: #357ab8;
+    transform: translateY(-1px); 
 }
 
 #csvFileInput {
@@ -92,6 +97,12 @@ button:hover {
     padding: 4px;
     width: 150px;
     border: 1px solid #357ab8;
+    transition: all 0.8s ease-in-out;
+}
+
+#addForm input:focus {
+    outline: none;
+    border-color: #15ff00;
 }
 
 .delete-btn {
